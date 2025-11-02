@@ -4,7 +4,7 @@ import BookingSystem from "../BookingSystem/BookingSystem";
 
 export default function Reservation() {
   return (
-    <div className="container">
+    <div id="reservations" className="container">
       <div className="ak-height-150 ak-height-lg-60"></div>
       <div className="booking-system-heading">
         <SectionTitle

@@ -1,140 +1,71 @@
 [
-    {
-        "id": 1,
-        "posation": "Head of Chef",
-        "name": "Byron Smith",
-        "img": "/assets/img/chef/chef_1.jpg",
-        "videolink": "https://www.youtube.com/watch?v=UsD1MhKBmD4",
-        "shortDesp": "Lorem to our restaurant, where culinary artistry meets exceptional dining experiences. At, we strive to create a gastronomic haven that. Lorem to our restaurant, where culinary artistry meets exceptional dining exp eriences. At, we strive to create a gastronomic haven that.",
-        "desp": "Lorem to our restaurant, where culinary artistry meets exceptional dining experiences. At, we strive to create a gastronomic haven that tantalizes your taste buds and leaves you with unforgettable memories. Welcome to our restaurant, where culinary artistry meets exceptional dining experiences. At, we strive to create a gastronomic.,",
-        "Children": [
-            {
-                "link": "https://www.facebook.com/",
-                "name": "facebook"
-            },
-            {
-                "link": "https://www.linkedin.com/",
-                "name": "linkedin"
-            },
-            {
-                "link": "https://www.instagram.com/",
-                "name": "instagram"
-            }
-        ]
-    },
-    {
-        "id": 2,
-        "posation": "Italian Specialist",
-        "name": "Craig Martin",
-        "img": "/assets/img/chef/chef_2.jpg",
-        "videolink": "https://www.youtube.com/watch?v=UsD1MhKBmD4",
-        "shortDesp": "Lorem to our restaurant, where culinary artistry meets exceptional dining experiences. At, we strive to create a gastronomic haven that. Lorem to our restaurant, where culinary artistry meets exceptional dining exp eriences. At, we strive to create a gastronomic haven that.",
-        "desp": "Lorem to our restaurant, where culinary artistry meets exceptional dining experiences. At, we strive to create a gastronomic haven that tantalizes your taste buds and leaves you with unforgettable memories. Welcome to our restaurant, where culinary artistry meets exceptional dining experiences. At, we strive to create a gastronomic.,",
-        "Children": [
-            {
-                "link": "https://www.facebook.com/",
-                "name": "facebook"
-            },
-            {
-                "link": "https://www.linkedin.com/",
-                "name": "linkedin"
-            },
-            {
-                "link": "https://www.instagram.com/",
-                "name": "instagram"
-            }
-        ]
-    },
-    {
-        "id": 3,
-        "posation": "Thai Specialist",
-        "name": "Italian Specialist",
-        "img": "/assets/img/chef/chef_3.jpg",
-        "videolink": "https://www.youtube.com/watch?v=UsD1MhKBmD4",
-        "shortDesp": "Lorem to our restaurant, where culinary artistry meets exceptional dining experiences. At, we strive to create a gastronomic haven that. Lorem to our restaurant, where culinary artistry meets exceptional dining exp eriences. At, we strive to create a gastronomic haven that.",
-        "desp": "Lorem to our restaurant, where culinary artistry meets exceptional dining experiences. At, we strive to create a gastronomic haven that tantalizes your taste buds and leaves you with unforgettable memories. Welcome to our restaurant, where culinary artistry meets exceptional dining experiences. At, we strive to create a gastronomic.,",
-        "Children": [
-            {
-                "link": "https://www.facebook.com/",
-                "name": "facebook"
-            },
-            {
-                "link": "https://www.linkedin.com/",
-                "name": "linkedin"
-            },
-            {
-                "link": "https://www.instagram.com/",
-                "name": "instagram"
-            }
-        ]
-    },
-    {
-        "id": 4,
-        "posation": "Italian Specialist",
-        "name": "Andrew Cannon",
-        "img": "/assets/img/chef/chef_4.jpg",
-        "videolink": "https://www.youtube.com/watch?v=UsD1MhKBmD4",
-        "shortDesp": "Lorem to our restaurant, where culinary artistry meets exceptional dining experiences. At, we strive to create a gastronomic haven that. Lorem to our restaurant, where culinary artistry meets exceptional dining exp eriences. At, we strive to create a gastronomic haven that.",
-        "desp": "Lorem to our restaurant, where culinary artistry meets exceptional dining experiences. At, we strive to create a gastronomic haven that tantalizes your taste buds and leaves you with unforgettable memories. Welcome to our restaurant, where culinary artistry meets exceptional dining experiences. At, we strive to create a gastronomic.,",
-        "Children": [
-            {
-                "link": "https://www.facebook.com/",
-                "name": "facebook"
-            },
-            {
-                "link": "https://www.linkedin.com/",
-                "name": "linkedin"
-            },
-            {
-                "link": "https://www.instagram.com/",
-                "name": "instagram"
-            }
-        ]
-    },
-    {
-        "id": 5,
-        "posation": "Italian Specialist",
-        "name": "Wesley Story",
-        "img": "/assets/img/chef/chef_5.jpg",
-        "videolink": "https://www.youtube.com/watch?v=UsD1MhKBmD4",
-        "shortDesp": "Lorem to our restaurant, where culinary artistry meets exceptional dining experiences. At, we strive to create a gastronomic haven that. Lorem to our restaurant, where culinary artistry meets exceptional dining exp eriences. At, we strive to create a gastronomic haven that.",
-        "desp": "Lorem to our restaurant, where culinary artistry meets exceptional dining experiences. At, we strive to create a gastronomic haven that tantalizes your taste buds and leaves you with unforgettable memories. Welcome to our restaurant, where culinary artistry meets exceptional dining experiences. At, we strive to create a gastronomic.,",
-        "Children": [
-            {
-                "link": "https://www.facebook.com/",
-                "name": "facebook"
-            },
-            {
-                "link": "https://www.linkedin.com/",
-                "name": "linkedin"
-            },
-            {
-                "link": "https://www.instagram.com/",
-                "name": "instagram"
-            }
-        ]
-    },
-    {
-        "id": 6,
-        "posation": "Michael Laseter",
-        "name": "Michael Laseter",
-        "img": "/assets/img/chef/chef_6.jpg",
-        "videolink": "https://www.youtube.com/watch?v=UsD1MhKBmD4",
-        "shortDesp": "Lorem to our restaurant, where culinary artistry meets exceptional dining experiences. At, we strive to create a gastronomic haven that. Lorem to our restaurant, where culinary artistry meets exceptional dining exp eriences. At, we strive to create a gastronomic haven that.",
-        "desp": "Lorem to our restaurant, where culinary artistry meets exceptional dining experiences. At, we strive to create a gastronomic haven that tantalizes your taste buds and leaves you with unforgettable memories. Welcome to our restaurant, where culinary artistry meets exceptional dining experiences. At, we strive to create a gastronomic.,",
-        "Children": [
-            {
-                "link": "https://www.facebook.com/",
-                "name": "facebook"
-            },
-            {
-                "link": "https://www.linkedin.com/",
-                "name": "linkedin"
-            },
-            {
-                "link": "https://www.instagram.com/",
-                "name": "instagram"
-            }
-        ]
-    }
+  {
+    "id": 1,
+    "posation": "Head Chef",
+    "name": "Sanito",
+    "img": "/assets/img/chef/chef_1.jpg",
+    "videolink": "https://www.youtube.com/watch?v=UsD1MhKBmD4",
+    "shortDesp": "Sanito leads our kitchen with passion, combining authentic Thai flavors with modern culinary artistry.",
+    "desp": "As Head Chef, Sanito Sathip Sangwisit brings years of experience in Thai cuisine, crafting dishes that are both traditional and innovative. His dedication ensures every meal is a memorable experience.",
+    "Children": [
+      {
+        "link": "https://www.facebook.com/",
+        "name": "facebook"
+      },
+      {
+        "link": "https://www.linkedin.com/",
+        "name": "linkedin"
+      },
+      {
+        "link": "https://www.instagram.com/",
+        "name": "instagram"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "posation": "Thai Cuisine Specialist",
+    "name": "Kanya",
+    "img": "/assets/img/chef/chef_2.jpg",
+    "videolink": "https://www.youtube.com/watch?v=UsD1MhKBmD4",
+    "shortDesp": "Kanya specializes in authentic Thai street flavors and spicy delicacies.",
+    "desp": "Kanya brings her love for traditional Thai street food to the restaurant. She ensures that every dish bursts with authentic flavors and genuine Thai spices, delivering an unforgettable culinary journey.",
+    "Children": [
+      {
+        "link": "https://www.facebook.com/",
+        "name": "facebook"
+      },
+      {
+        "link": "https://www.linkedin.com/",
+        "name": "linkedin"
+      },
+      {
+        "link": "https://www.instagram.com/",
+        "name": "instagram"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "posation": "Dessert & Pastry Chef",
+    "name": "Niran",
+    "img": "/assets/img/chef/chef_3.jpg",
+    "videolink": "https://www.youtube.com/watch?v=UsD1MhKBmD4",
+    "shortDesp": "Niran creates exquisite Thai-inspired desserts with elegance and flavor.",
+    "desp": "Niran Chaiyaporn combines traditional Thai ingredients with contemporary pastry techniques to craft visually stunning and delicious desserts. Each creation is a work of art that complements our Thai menu perfectly.",
+    "Children": [
+      {
+        "link": "https://www.facebook.com/",
+        "name": "facebook"
+      },
+      {
+        "link": "https://www.linkedin.com/",
+        "name": "linkedin"
+      },
+      {
+        "link": "https://www.instagram.com/",
+        "name": "instagram"
+      }
+    ]
+  }
 ]

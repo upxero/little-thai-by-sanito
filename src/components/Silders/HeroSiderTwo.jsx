@@ -6,19 +6,19 @@ const sliderData = [
   {
     title: "Elegance Retreat",
     maintitle: "Restaurant",
-    desp: "Welcome to our restaurant, where culinary artistry meets exceptional dining experiences. At, we strive to create a gastronomic haven that tantalizes your taste buds and leaves you with",
+    desp: "Experience the art of Thai cooking, where Sanito Sathip Sangwisit brings traditional flavors and modern elegance together in every dish.",
     buttonUrl: "reservations",
   },
   {
-    title: "Elegance Retreat",
-    maintitle: "Restaurant",
-    desp: "Welcome to our restaurant, where culinary artistry meets exceptional dining experiences. At, we strive to create a gastronomic haven that tantalizes your taste buds and leaves you with",
+    title: "Flavor Voyage",
+    maintitle: "Experience",
+    desp: "Step into a world of Muay Thai strength and butterfly grace, where each plate tells a story of Thailand’s rich culinary heritage.",
     buttonUrl: "reservations",
   },
   {
-    title: "Elegance Retreat",
-    maintitle: "Restaurant",
-    desp: "Welcome to our restaurant, where culinary artistry meets exceptional dining experiences. At, we strive to create a gastronomic haven that tantalizes your taste buds and leaves you with",
+    title: "Harmony Escape",
+    maintitle: "Journey",
+    desp: "From signature curries to exquisite desserts, enjoy a poetic journey of flavors in a setting that combines Thai tradition and modern Belgian design.",
     buttonUrl: "reservations",
   },
 ];

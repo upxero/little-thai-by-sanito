@@ -4,13 +4,13 @@ import SectionTitle from "../SectionTitle/SectionTitle";
 import { borderAnimation, imageZoomInOut } from "../../helper/main";
 
 const about_content = {
-  title: "Royalty",
-  textWhite: "Exquisite Dining Experience Fit for",
+  title: "Culinary Art",
+  textWhite: "Exquisite Thai Dining Experience",
   imgOne: "/assets/img/about/about_bg.jpg",
   subtext:
-    "Lorem to our restaurant, where culinary artistry meets exceptional dining experiences. At, we strive to create a gastronomic haven that.",
+    "At LittleThaiBySanito, each dish is a journey of flavors, blending traditional Thai recipes with modern culinary artistry.",
   details:
-    "Welcome to our restaurant, where culinary artistry meets exceptional dining experiences. At, we strive to create a gastronomic haven that tantalizes your taste buds and leaves you with unforgettable memories.",
+    "Led by Head Chef Sanito Sathip Sangwisit, our kitchen transforms authentic Thai ingredients into luxurious, visually stunning dishes. From signature curries to delicate desserts, every creation reflects passion, culture, and elegance.",
 };
 
 const { title, textWhite, imgOne, subtext, details } = about_content;
@@ -30,7 +30,7 @@ export default function AboutContent() {
       <div className="ak-height-150 ak-height-lg-60"></div>
       <div className="ak-about ak-style-1">
         <div className="ak-about-bg-img ak-bg">
-          <img src={imgOne} alt="..." ref={imageZoomIn} />
+          <img src={imgOne} alt="About LittleThaiBySanito" ref={imageZoomIn} />
         </div>
         <div className="ak-about-hr" ref={borderAbout}></div>
         <div className="container">

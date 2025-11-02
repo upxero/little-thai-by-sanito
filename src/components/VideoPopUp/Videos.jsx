@@ -2,7 +2,7 @@ import React, { useLayoutEffect, useRef, useState } from "react";
 import ModalVideo from "react-modal-video";
 import { imageZoomInOut } from "../../helper/main";
 
-import aboutVideoBg from "/assets/img/about/aboutVideoBg.jpg";
+import aboutVideoBg from "/assets/img/bg/lights-sanito.png";
 
 export default function Videos({ videoId }) {
   const [isOpen, setOpen] = useState(false);

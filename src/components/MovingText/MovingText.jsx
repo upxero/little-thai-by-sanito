@@ -2,12 +2,16 @@ import React from "react";
 
 const movingText = [
   {
-    white: "Embark on a gastronomic adventure ",
-    yellow: "guided our by exquisite dishes",
+    white: "Discover the art of Thai cuisine ",
+    yellow: "crafted by Chef Sanito",
   },
   {
-    white: "Embark on a gastronomic adventure ",
-    yellow: "guided our by exquisite dishes",
+    white: "Savor flavors from Thailand ",
+    yellow: "in every elegant dish",
+  },
+  {
+    white: "Experience culinary tradition ",
+    yellow: "meets modern luxury",
   },
 ];
 
@@ -26,3 +30,4 @@ export default function MovingText() {
     </div>
   );
 }
+

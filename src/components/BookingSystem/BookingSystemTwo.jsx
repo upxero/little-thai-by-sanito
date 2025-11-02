@@ -3,7 +3,7 @@ import VideoButton from "../VideoPopUp/VideoButton";
 import SectionTitle from "../SectionTitle/SectionTitle";
 import BookingSystem from "./BookingSystem";
 import { imageZoomInOut } from "../../helper/main";
-import bookingSystemBg from "/assets/img/bg/bookingSystemBg.png";
+import bookingSystemBg from "/assets/img/bg/lights-sanito.png";
 
 export default function BookingSystemTwo({ videoId }) {
   const imageContainer = useRef(null);

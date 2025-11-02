@@ -2,79 +2,44 @@
   {
     "foodMenu": [
       {
-        "title": "Spaghetti alla Carbonara",
-        "price": "$49",
-        "image": "/assets/img/itemShow/item-show.png",
-        "subTitle": "Lorem passionate chefs masterfully",
-        "priceSubTitle": "Extra free juice"
+        "title": "Tom Yum Goong (Spicy Shrimp Soup)",
+        "price": "€12",
+        "image": "/assets/img/itemShow/tom-yum-goong.png",
+        "subTitle": "Aromatic Thai soup with shrimp, lemongrass & lime",
+        "priceSubTitle": "Served hot"
       },
       {
-        "title": "Caviar-topped Oysters",
-        "price": "$49",
-        "image": "/assets/img/itemShow/item-show.png",
-        "subTitle": "Lorem passionate chefs masterfully",
-        "priceSubTitle": "Extra free juice"
+        "title": "Som Tum (Green Papaya Salad)",
+        "price": "€10",
+        "image": "/assets/img/itemShow/som-tum.png",
+        "subTitle": "Fresh, spicy salad with peanuts & lime dressing",
+        "priceSubTitle": "Vegan friendly"
       },
       {
-        "title": "Croquetas de jamón",
-        "price": "$49",
-        "image": "/assets/img/itemShow/item-show.png",
-        "subTitle": "Lorem passionate chefs masterfully",
-        "priceSubTitle": "Extra free juice"
+        "title": "Satay Chicken Skewers",
+        "price": "€11",
+        "image": "/assets/img/itemShow/satay-chicken.png",
+        "subTitle": "Grilled marinated chicken with peanut sauce",
+        "priceSubTitle": "Perfect starter"
       },
       {
-        "title": "Foie Gras and Fig Terrine",
-        "price": "$49",
-        "image": "/assets/img/itemShow/item-show.png",
-        "subTitle": "Lorem passionate chefs masterfully",
-        "priceSubTitle": "Extra free juice"
+        "title": "Spring Rolls (Vegetable)",
+        "price": "€9",
+        "image": "/assets/img/itemShow/spring-rolls.png",
+        "subTitle": "Crispy rolls with sweet chili sauce",
+        "priceSubTitle": "Vegan friendly"
       },
       {
-        "title": "paella valenciana",
-        "price": "$49",
-        "image": "/assets/img/itemShow/item-show.png",
-        "subTitle": "Lorem passionate chefs masterfully",
-        "priceSubTitle": "Extra free juice"
-      },
-      {
-        "title": "Truffle-infused Filet Mignon",
-        "price": "$49",
-        "image": "/assets/img/itemShow/item-show.png",
-        "subTitle": "Lorem passionate chefs masterfully",
-        "priceSubTitle": "Extra free juice"
-      },
-      {
-        "title": "Peri Peri Prawns",
-        "price": "$49",
-        "image": "/assets/img/itemShow/item-show.png",
-        "subTitle": "Lorem passionate chefs masterfully",
-        "priceSubTitle": "Extra free juice"
-      },
-      {
-        "title": "Butter Poached Lobster",
-        "price": "$49",
-        "image": "/assets/img/itemShow/item-show.png",
-        "subTitle": "Lorem passionate chefs masterfully",
-        "priceSubTitle": "Extra free juice"
-      },
-      {
-        "title": "Golden Saffron Risotto",
-        "price": "$49",
-        "image": "/assets/img/itemShow/item-show.png",
-        "subTitle": "Lorem passionate chefs masterfully",
-        "priceSubTitle": "Extra free juice"
-      },
-      {
-        "title": "Herb-Crusted Rack of Lamb",
-        "price": "$49",
-        "image": "/assets/img/itemShow/item-show.png",
-        "subTitle": "Lorem passionate chefs masterfully",
-        "priceSubTitle": "Extra free juice"
+        "title": "Crispy Prawn Tempura",
+        "price": "€13",
+        "image": "/assets/img/itemShow/prawn-tempura.png",
+        "subTitle": "Lightly fried prawns with dipping sauce",
+        "priceSubTitle": "Delicious & crunchy"
       }
     ],
     "headingtext": {
-      "title": "Appetizers",
-      "subTitle": "Appetizers",
+      "title": "Starters",
+      "subTitle": "Delicious Thai Appetizers",
       "tyle": "center"
     },
     "bgImgShow": "/assets/img/bg/menuBg.png"
@@ -82,159 +47,89 @@
   {
     "foodMenu": [
       {
-        "title": "Vienetta (Netherlands)",
-        "price": "$49",
-        "image": "/assets/img/itemShow/item-show_2.png",
-        "subTitle": "Lorem passionate chefs masterfully",
-        "priceSubTitle": "Extra free juice"
+        "title": "Pad Thai (Stir-fried Noodles)",
+        "price": "€14",
+        "image": "/assets/img/itemShow/pad-thai.png",
+        "subTitle": "Rice noodles with prawns, tofu & peanuts",
+        "priceSubTitle": "Classic Thai dish"
       },
       {
-        "title": "Apple Strudel (Austria)",
-        "price": "$49",
-        "image": "/assets/img/itemShow/item-show_2.png",
-        "subTitle": "Lorem passionate chefs masterfully",
-        "priceSubTitle": "Extra free juice"
+        "title": "Green Curry with Chicken",
+        "price": "€15",
+        "image": "/assets/img/itemShow/green-curry.png",
+        "subTitle": "Spicy coconut curry with Thai herbs",
+        "priceSubTitle": "Served with jasmine rice"
       },
       {
-        "title": "Tiramisu",
-        "price": "$49",
-        "image": "/assets/img/itemShow/item-show_2.png",
-        "subTitle": "Lorem passionate chefs masterfully",
-        "priceSubTitle": "Extra free juice"
+        "title": "Massaman Beef Curry",
+        "price": "€16",
+        "image": "/assets/img/itemShow/massaman-beef.png",
+        "subTitle": "Rich curry with tender beef & potatoes",
+        "priceSubTitle": "Mild & flavorful"
       },
       {
-        "title": "Foie Gras and Fig Terrine",
-        "price": "$49",
-        "image": "/assets/img/itemShow/item-show_2.png",
-        "subTitle": "Lorem passionate chefs masterfully",
-        "priceSubTitle": "Extra free juice"
+        "title": "Thai Basil Chicken (Pad Krapow Gai)",
+        "price": "€13",
+        "image": "/assets/img/itemShow/pad-krapow-gai.png",
+        "subTitle": "Stir-fried chicken with chili & basil",
+        "priceSubTitle": "Spicy & aromatic"
       },
       {
-        "title": "Apple Strudel",
-        "price": "$49",
-        "image": "/assets/img/itemShow/item-show_2.png",
-        "subTitle": "Lorem passionate chefs masterfully",
-        "priceSubTitle": "Extra free juice"
-      },
-      {
-        "title": "Truffle-infused Filet Mignon",
-        "price": "$49",
-        "image": "/assets/img/itemShow/item-show_2.png",
-        "subTitle": "Lorem passionate chefs masterfully",
-        "priceSubTitle": "Extra free juice"
-      },
-      {
-        "title": "Crème Brûlée",
-        "price": "$49",
-        "image": "/assets/img/itemShow/item-show_2.png",
-        "subTitle": "Lorem passionate chefs masterfully",
-        "priceSubTitle": "Extra free juice"
-      },
-      {
-        "title": "Butter Poached Lobster",
-        "price": "$49",
-        "image": "/assets/img/itemShow/item-show_2.png",
-        "subTitle": "Lorem passionate chefs masterfully",
-        "priceSubTitle": "Extra free juice"
-      },
-      {
-        "title": "Black Forest Cake",
-        "price": "$49",
-        "image": "/assets/img/itemShow/item-show_2.png",
-        "subTitle": "Lorem passionate chefs masterfully",
-        "priceSubTitle": "Extra free juice"
-      },
-      {
-        "title": "Pastéis de Nata (Portugal)",
-        "price": "$49",
-        "image": "/assets/img/itemShow/item-show_2.png",
-        "subTitle": "Lorem passionate chefs masterfully",
-        "priceSubTitle": "Extra free juice"
+        "title": "Fried Rice with Pineapple",
+        "price": "€12",
+        "image": "/assets/img/itemShow/pineapple-fried-rice.png",
+        "subTitle": "Sweet & savory fried rice with prawns",
+        "priceSubTitle": "Served in pineapple shell"
       }
     ],
-    "bgImgShow": "/assets/img/bg/barMenuBg.png",
     "headingtext": {
-      "title": "Bar Items",
-      "subTitle": "Juice Bar",
+      "title": "Main Courses",
+      "subTitle": "Authentic Thai Specialties",
       "tyle": "center"
-    }
+    },
+    "bgImgShow": "/assets/img/bg/barMenuBg.png"
   },
   {
     "foodMenu": [
       {
-        "title": "Guinness Irelandian",
-        "price": "$49",
-        "image": "/assets/img/itemShow/item-show_3.png",
-        "subTitle": "Lorem passionate chefs masterfully",
-        "priceSubTitle": "Extra free juice"
+        "title": "Mango Sticky Rice",
+        "price": "€8",
+        "image": "/assets/img/itemShow/mango-sticky-rice.png",
+        "subTitle": "Sweet coconut sticky rice with fresh mango",
+        "priceSubTitle": "Classic Thai dessert"
       },
       {
-        "title": "Scotch Whisky Scotland",
-        "price": "$49",
-        "image": "/assets/img/itemShow/item-show_3.png",
-        "subTitle": "Lorem passionate chefs masterfully",
-        "priceSubTitle": "Extra free juice"
+        "title": "Coconut Ice Cream",
+        "price": "€6",
+        "image": "/assets/img/itemShow/coconut-ice-cream.png",
+        "subTitle": "Refreshing coconut ice cream with toppings",
+        "priceSubTitle": "Vegan friendly"
       },
       {
-        "title": "Aperol Spritz Italian",
-        "price": "$49",
-        "image": "/assets/img/itemShow/item-show_3.png",
-        "subTitle": "Lorem passionate chefs masterfully",
-        "priceSubTitle": "Extra free juice"
+        "title": "Fried Banana with Honey",
+        "price": "€7",
+        "image": "/assets/img/itemShow/fried-banana.png",
+        "subTitle": "Crispy banana fritters drizzled with honey",
+        "priceSubTitle": "Sweet & crunchy"
       },
       {
-        "title": "Jägermeister Germany",
-        "price": "$49",
-        "image": "/assets/img/itemShow/item-show_3.png",
-        "subTitle": "Lorem passionate chefs masterfully",
-        "priceSubTitle": "Extra free juice"
+        "title": "Thai Tea Panna Cotta",
+        "price": "€8",
+        "image": "/assets/img/itemShow/thai-tea-panna-cotta.png",
+        "subTitle": "Creamy dessert infused with Thai tea",
+        "priceSubTitle": "Elegant & flavorful"
       },
       {
-        "title": "Pilsner Urquell Czech",
-        "price": "$49",
-        "image": "/assets/img/itemShow/item-show_3.png",
-        "subTitle": "Lorem passionate chefs masterfully",
-        "priceSubTitle": "Extra free juice"
-      },
-      {
-        "title": "Port Wine (Portugal)",
-        "price": "$49",
-        "image": "/assets/img/itemShow/item-show_3.png",
-        "subTitle": "Lorem passionate chefs masterfully",
-        "priceSubTitle": "Extra free juice"
-      },
-      {
-        "title": "Pavlova (New Zealand)",
-        "price": "$49",
-        "image": "/assets/img/itemShow/item-show_3.png",
-        "subTitle": "Lorem passionate chefs masterfully",
-        "priceSubTitle": "Extra free juice"
-      },
-      {
-        "title": "Vodka Russia / Poland",
-        "price": "$49",
-        "image": "/assets/img/itemShow/item-show_3.png",
-        "subTitle": "Lorem passionate chefs masterfully",
-        "priceSubTitle": "Extra free juice"
-      },
-      {
-        "title": "Vodka Russia / Poland",
-        "price": "$49",
-        "image": "/assets/img/itemShow/item-show_3.png",
-        "subTitle": "Lorem passionate chefs masterfully",
-        "priceSubTitle": "Extra free juice"
-      },
-      {
-        "title": "Aperol Spritz Italian",
-        "price": "$49",
-        "image": "/assets/img/itemShow/item-show_3.png",
-        "subTitle": "Lorem passionate chefs masterfully",
-        "priceSubTitle": "Extra free juice"
+        "title": "Durian Cheesecake (Optional)",
+        "price": "€9",
+        "image": "/assets/img/itemShow/durian-cheesecake.png",
+        "subTitle": "Unique Thai cheesecake with durian flavor",
+        "priceSubTitle": "For adventurous eaters"
       }
     ],
     "headingtext": {
       "title": "Desserts",
-      "subTitle": "Sweet dreams",
+      "subTitle": "Sweet Thai Delights",
       "tyle": "center"
     },
     "bgImgShow": "/assets/img/bg/bessertsMenuBg.png"

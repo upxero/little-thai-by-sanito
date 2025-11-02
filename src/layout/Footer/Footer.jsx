@@ -14,7 +14,7 @@ const Footertext = {
   addresstwo: "Bolivarplaats Antwerpen Zuid",
   timeone: "SUNDAY - THURSDAY: 11:30AM - 11PM",
   timetwo: "FRIDAY & SATURDAY: 11:30AM - 12AM",
-  copyright: "Copyright 2025 All Right Reserved",
+  copyright: "Copyright 2025 - Little Thai By Sanito",
 };
 
 const Footernav = [
