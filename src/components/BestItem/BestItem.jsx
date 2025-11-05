@@ -3,12 +3,12 @@ import SectionTitle from "../SectionTitle/SectionTitle";
 import ImgesOverlay from "../ImgesOverlay/ImgesOverlay";
 
 const bestItem = {
-  title: "Specialties",
+  title: "Signature Dishes",
   textWhite: "Our",
   imgOne: "/assets/img/bestItem/bestItem1.jpg",
-  imgTwo: "/assets/img/bestItem//bestItem2.jpg",
+  imgTwo: "/assets/img/bestItem/bestItem2.jpg",
   details:
-    " Welcome to our restaurant, where culinary artistry meets exceptional dining experiences. At, we strive to create a gastronomic haven that tantalizes your taste buds.",
+    "Experience the essence of Thailand through Chef Sanito’s signature creations — a fusion of tradition, passion, and modern presentation. Each dish tells a story of balance between spice, flavor, and art.",
 };
 
 export default function BestItem() {

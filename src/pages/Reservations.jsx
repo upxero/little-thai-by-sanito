@@ -4,6 +4,7 @@ import CommonHero from "../components/CommonHero/CommonHero";
 import SectionTitle from "../components/SectionTitle/SectionTitle";
 import BookingSystem from "../components/BookingSystem/BookingSystem";
 import GoogleMap from "../components/GoogleMap/GoogleMap";
+import BuildingPhotos from "../components/BuildingPhotos/BuildingPhotos";
 
 export default function Reservations() {
   return (
@@ -27,6 +28,7 @@ export default function Reservations() {
             </div>
           </div>
         </div>
+        <BuildingPhotos />
       </div>
     </>
   );

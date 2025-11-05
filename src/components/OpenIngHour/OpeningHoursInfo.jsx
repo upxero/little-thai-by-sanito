@@ -8,9 +8,9 @@ const Openinginfo = {
   title: "Opening Hours",
   image: "/assets/img/about/about_open_hour.jpg",
   subtext:
-    "Lorem to our restaurant, where culinary artistry meets exceptional dining experiences. At, we strive to create a gastronomic haven that.",
-  open: "SUNDAY - THURSDAY: 11:30AM - 11PM",
-  close: "FRIDAY & SATURDAY: 11:30AM - 12AM",
+    "Experience authentic Thai cuisine in an elegant atmosphere where tradition meets modern artistry. Join us for lunch or dinner and discover the taste of Thailand by Chef Sanito.",
+  open: "SUNDAY - THURSDAY: 11:30 AM - 10:30 PM",
+  close: "FRIDAY & SATURDAY: 11:30 AM - 11:30 PM",
 };
 
 export default function OpeningHoursInfo({ typeTwo }) {

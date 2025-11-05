@@ -4,6 +4,7 @@ import SectionTitle from "../components/SectionTitle/SectionTitle";
 import CommonHero from "../components/CommonHero/CommonHero";
 import GoogleMap from "../components/GoogleMap/GoogleMap";
 import CommentConatctFrom from "../components/Comment/CommentConatctFrom";
+import BuildingPhotos from "../components/BuildingPhotos/BuildingPhotos";
 
 export default function Contact() {
   return (
@@ -23,6 +24,7 @@ export default function Contact() {
           </div>
         </div>
       </div>
+      <BuildingPhotos />
       <div className="ak-height-150 ak-height-lg-60"></div>
     </>
   );
