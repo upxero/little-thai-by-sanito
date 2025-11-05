@@ -103,7 +103,15 @@ export default function Footer() {
           <div className="footer-main">
             <div className="footer-eamil-menu">
               <div className="footer-email">
-                <a href="mailto:info@littlethaibysanito.be">{Footertext.email}</a>
+                <a
+                  href="mailto:info@littlethaibysanito.be"
+                  style={{
+                    fontSize: "20px", 
+                    wordBreak: "break-all", 
+                  }}
+                >
+                  {Footertext.email}
+                </a>
               </div>
               <div className="footer-menu">
                 <ul>
