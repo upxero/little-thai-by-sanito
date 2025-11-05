@@ -23,5 +23,10 @@
         "title": "Portfolio",
         "link": "/portfolio",
         "key": "portfolio"
+    },
+    {
+        "title": "Contact",
+        "link": "/contact",
+        "key": "contact"
     }
 ]
