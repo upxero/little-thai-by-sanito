@@ -8,13 +8,14 @@ const Openinginfo = {
   title: "Opening Hours",
   image: "/assets/img/about/about_open_hour.jpg",
   subtext:
-    "Experience authentic Thai cuisine in an elegant atmosphere where tradition meets modern artistry. Join us for lunch or dinner and discover the taste of Thailand by Chef Sanito.",
-  open: "SUNDAY - THURSDAY: 11:30 AM - 10:30 PM",
-  close: "FRIDAY & SATURDAY: 11:30 AM - 11:30 PM",
+    "Experience authentic Thai cuisine in an elegant atmosphere where tradition meets modern artistry. Join us for dinner and soon also for lunch.",
+  open: "TUESDAY - SATURDAY: 18:00 - 23:00",
+  close: "FRIDAY & SATURDAY (Cocktails & Finger Food): 22:00 - 02:00",
+  note: "Coming soon — lunch opening on Wednesday, Thursday & Friday from 12:00 - 14:30.",
 };
 
 export default function OpeningHoursInfo({ typeTwo }) {
-  const { title, image, subtext, open, close } = Openinginfo;
+  const { title, image, subtext, open, close, note } = Openinginfo;
 
   const openingHour = classNames("opening-hour", {
     "type-2": typeTwo,
@@ -26,6 +27,7 @@ export default function OpeningHoursInfo({ typeTwo }) {
   const openingHourtext = classNames("opening-hour-text-section", {
     "type-2": typeTwo,
   });
+
   return (
     <>
       <div className="ak-height-150 ak-height-lg-60"></div>
@@ -38,17 +40,25 @@ export default function OpeningHoursInfo({ typeTwo }) {
             <SectionTitle title={title} animTwo={true} />
             <div className="ak-height-30 ak-height-lg-30"></div>
             <p className="opening-hour-subtext">{subtext}</p>
-            {open && close ? (
+            {open && close && (
               <>
                 <div className="ak-height-30 ak-height-lg-30"></div>
                 <div className="opening-hour-date">
                   <p>{open}</p>
                   <div className="opening-hour-hr"></div>
-                  <p> {close}</p>
+                  <p>{close}</p>
                 </div>
               </>
-            ) : (
-              ""
+            )}
+            
+            {/* ✅ Nieuw: toon de coming soon note */}
+            {note && (
+              <>
+                <div className="ak-height-20 ak-height-lg-20"></div>
+                <p className="opening-hour-note" style={{ fontStyle: "italic", opacity: 0.8 }}>
+                  {note}
+                </p>
+              </>
             )}
 
             <div className="ak-height-70 ak-height-lg-30"></div>

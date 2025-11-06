@@ -2,16 +2,16 @@ import React from "react";
 
 const movingText = [
   {
-    white: "Discover the art of Thai cuisine ",
-    yellow: "crafted by Chef Sanito",
+    white: "Discover the authentic taste of Thailand ",
+    yellow: "with Sanito's signature style",
   },
   {
-    white: "Savor flavors from Thailand ",
-    yellow: "in every elegant dish",
+    white: "Savor vibrant Thai flavors ",
+    yellow: "in every refined dish",
   },
   {
-    white: "Experience culinary tradition ",
-    yellow: "meets modern luxury",
+    white: "Where culinary tradition ",
+    yellow: "meets modern elegance",
   },
 ];
 

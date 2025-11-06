@@ -8,9 +8,9 @@ const about_content = {
   textWhite: "Exquisite Thai Dining Experience",
   imgOne: "/assets/img/about/about_bg.jpg",
   subtext:
-    "At LittleThaiBySanito, each dish is a journey of flavors, blending traditional Thai recipes with modern culinary artistry.",
+    "At LittleThaiBySanito, each dish is a journey of flavors, blending traditional Thai recipes with a touch of modern artistry.",
   details:
-    "Led by Head Chef Sanito Sathip Sangwisit, our kitchen transforms authentic Thai ingredients into luxurious, visually stunning dishes. From signature curries to delicate desserts, every creation reflects passion, culture, and elegance.",
+    "Created by Sanito Sathip Sangwisit, our kitchen transforms authentic Thai ingredients into elegant and flavorful dishes. Every creation reflects passion, culture, and a true love for Thai cuisine.",
 };
 
 const { title, textWhite, imgOne, subtext, details } = about_content;

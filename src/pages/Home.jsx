@@ -16,10 +16,10 @@ export default function Home() {
       <MovingText />
       <AboutContent />
       <OpeningHoursInfo />
-      <PortfolioSlider />
-      <FoodMenuHome styleTwo={false} bgimgremove={true} />
+      {/* <PortfolioSlider /> */}
+      {/* <FoodMenuHome styleTwo={false} bgimgremove={true} /> */}
       <BestItem />
-      <Testimonial />
+      {/* <Testimonial />*/}
       <BookingSystemTwo videoId={"UsD1MhKBmD4"} />
     </>
   );

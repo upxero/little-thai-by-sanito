@@ -10,7 +10,7 @@ export default function About() {
     <div>
       <CommonHero title={"About Us"} link={"/"} />
       <AboutContent />
-      <Testimonial />
+      {/* <Testimonial /> */}
       <OpeningHoursInfo typeTwo={true} />
       <Videos videoId={"UsD1MhKBmD4"} />
     </div>

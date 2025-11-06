@@ -7,11 +7,11 @@ import footerBg from "/assets/img/bg/footer_bg.png";
 import elegenciaLogo from "/assets/img/logo/logo.png";
 
 const Footertext = {
-  email: "info@littlethaibysanito.be",
+  email: "littlethaibysanito@gmail.com",
   phoneone: "Phone",
-  phonetwo: "+32412345678",
+  phonetwo: "+32 (0) 473 17 51 16",
   addressone: "Adress",
-  addresstwo: "Bolivarplaats Antwerpen Zuid",
+  addresstwo: "Bolivarplaats 2, 2000 Antwerpen",
   timeone: "SUNDAY - THURSDAY: 11:30AM - 11PM",
   timetwo: "FRIDAY & SATURDAY: 11:30AM - 12AM",
   copyright: "Copyright 2025 - Little Thai By Sanito",
@@ -32,11 +32,6 @@ const Footernav = [
     title: "Menu",
     link: "/menu",
     key: "menu",
-  },
-  {
-    title: "Chef",
-    link: "/chef",
-    key: "chef",
   },
   {
     title: "Contact",
@@ -104,7 +99,7 @@ export default function Footer() {
             <div className="footer-eamil-menu">
               <div className="footer-email">
                 <a
-                  href="mailto:info@littlethaibysanito.be"
+                  href="mailto:littlethaibysanito@gmail.com"
                   style={{
                     fontSize: "20px", 
                     wordBreak: "break-all", 
@@ -128,13 +123,13 @@ export default function Footer() {
             <div className="ak-height-75 ak-height-lg-5"></div>
             <div className="footer-info">
               <div className="fooer-phn">
-                <a href={`tel:${Footertext.phoneone}`}>{Footertext.phoneone}</a>
+                <a href={`tel:+32473175116{Footertext.phoneone}`}>{Footertext.phoneone}</a>
                 <br />
-                <a href={`tel:${Footertext.phonetwo}`}>{Footertext.phonetwo}</a>
+                <a href={`tel:+32473175116{Footertext.phonetwo}`}>{Footertext.phonetwo}</a>
               </div>
               <div className="footer-address">
                 <a
-                  href="https://maps.app.goo.gl/NYyj8oYcAkY8kYwh9"
+                  href="https://maps.app.goo.gl/vdbgLVtuSSNnmgxLA"
                   target="_blank"
                 >
                   {Footertext.addressone}
