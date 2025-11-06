@@ -8,10 +8,12 @@ import MovingText from "../components/MovingText/MovingText";
 import HeroSiderTwo from "../components/Silders/HeroSiderTwo";
 import PortfolioSlider from "../components/PortfolioSlider/PortfolioSlider";
 import OpeningHoursInfo from "../components/OpenIngHour/OpeningHoursInfo";
+import AnnouncementPopup from "../components/AnnouncementPopup/AnnouncementPopup";
 
 export default function Home() {
   return (
     <>
+      <AnnouncementPopup />
       <HeroSiderTwo />
       <MovingText />
       <AboutContent />
@@ -20,7 +22,7 @@ export default function Home() {
       {/* <FoodMenuHome styleTwo={false} bgimgremove={true} /> */}
       <BestItem />
       {/* <Testimonial />*/}
-      <BookingSystemTwo videoId={"UsD1MhKBmD4"} />
+      <BookingSystemTwo videoId={"WVfjXKldI-0"} />
     </>
   );
 }

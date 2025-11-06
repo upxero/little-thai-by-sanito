@@ -12,7 +12,7 @@ export default function About() {
       <AboutContent />
       {/* <Testimonial /> */}
       <OpeningHoursInfo typeTwo={true} />
-      <Videos videoId={"UsD1MhKBmD4"} />
+      <Videos videoId={"WVfjXKldI-0"} />
     </div>
   );
 }

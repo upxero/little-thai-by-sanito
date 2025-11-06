@@ -2,6 +2,7 @@ import React, { useRef, useLayoutEffect } from "react";
 import { Link } from "react-router-dom";
 import { footerAnimation, scrollUpBtn, scrollUpShow } from "../../helper/main";
 import { WhiteButton } from "../../components/Button/Button";
+import SocialLinks from "../../components/SocialLinks/SocialLinks";
 
 import footerBg from "/assets/img/bg/footer_bg.png";
 import elegenciaLogo from "/assets/img/logo/logo.png";
@@ -146,7 +147,7 @@ export default function Footer() {
                 <p>{Footertext.timetwo}</p>
               </div>
               <div className="footer-btn">
-                <WhiteButton to="reservations">Reservations</WhiteButton>
+                <WhiteButton to="/reservations">Reservations</WhiteButton>
               </div>
             </div>
           </div>
@@ -161,6 +162,7 @@ export default function Footer() {
             <p className="text-uppercase text-md-center text-white">
               {Footertext.copyright}
             </p>
+            <SocialLinks />
           </div>
 
           <div className="ak-height-45 ak-height-lg-30"></div>
