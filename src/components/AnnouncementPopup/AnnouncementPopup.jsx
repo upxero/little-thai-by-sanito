@@ -28,7 +28,7 @@ export default function AnnouncementPopup() {
   };
 
   const boxStyle = {
-    width: "500px", 
+    width: "500px",
     height: "300px",
     background: "#111111",
     color: "#fff",
@@ -128,7 +128,9 @@ export default function AnnouncementPopup() {
                 </strong>
               </p>
 
-              <p style={smallNoteStyle}>Website still under decoration</p>
+              <p style={smallNoteStyle}>
+                Website still under decoration — but ready for your reservation
+              </p>
             </div>
           </motion.div>
         </>

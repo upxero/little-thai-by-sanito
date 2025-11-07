@@ -11,34 +11,19 @@ const Footertext = {
   email: "littlethaibysanito@gmail.com",
   phoneone: "Phone",
   phonetwo: "+32 (0) 473 17 51 16",
-  addressone: "Adress",
+  addressone: "Address",
   addresstwo: "Bolivarplaats 2, 2000 Antwerpen",
-  timeone: "SUNDAY - THURSDAY: 11:30AM - 11PM",
-  timetwo: "FRIDAY & SATURDAY: 11:30AM - 12AM",
+  timeone: "Tue - Sat: 18:00 - 23:00",
+  timetwo: "Fri & Sat (Cocktails & Finger Food): 22:00 - 02:00",
+  timethree: "Coming soon — Lunch on Wed, Thu & Fri: 12:00 - 14:30",
   copyright: "Copyright 2025 - Little Thai By Sanito",
 };
 
 const Footernav = [
-  {
-    title: "Home",
-    link: "/",
-    key: "home",
-  },
-  {
-    title: "About",
-    link: "/about",
-    key: "about",
-  },
-  {
-    title: "Menu",
-    link: "/menu",
-    key: "menu",
-  },
-  {
-    title: "Contact",
-    link: "/contact",
-    key: "contact",
-  },
+  { title: "Home", link: "/", key: "home" },
+  { title: "About", link: "/about", key: "about" },
+  { title: "Menu", link: "/menu", key: "menu" },
+  { title: "Contact", link: "/contact", key: "contact" },
 ];
 
 export default function Footer() {
@@ -56,12 +41,7 @@ export default function Footer() {
       footerTimeBorder.current
     );
     scrollUpShow(scrollup.current);
-  }, [
-    footerContainer.current,
-    footerHrTop.current,
-    footerHrBottom.current,
-    footerTimeBorder.current,
-  ]);
+  }, []);
 
   return (
     <footer>
@@ -90,9 +70,10 @@ export default function Footer() {
                   />
                 </svg>
               </div>
-              <img src={elegenciaLogo} alt="..." />
+              <img src={elegenciaLogo} alt="Little Thai By Sanito logo" />
             </div>
           </div>
+
           <div className="ak-height-100 ak-height-lg-60"></div>
           <div className="ak-footer-hr-top" ref={footerHrTop}></div>
 
@@ -101,52 +82,135 @@ export default function Footer() {
               <div className="footer-email">
                 <a
                   href="mailto:littlethaibysanito@gmail.com"
-                  style={{
-                    fontSize: "20px", 
-                    wordBreak: "break-all", 
-                  }}
+                  style={{ fontSize: "20px", wordBreak: "break-all" }}
                 >
                   {Footertext.email}
                 </a>
               </div>
               <div className="footer-menu">
                 <ul>
-                  {Footernav?.map((item) => {
-                    return (
-                      <li key={item.key}>
-                        <Link to={item.link}>{item.title}</Link>
-                      </li>
-                    );
-                  })}
+                  {Footernav.map((item) => (
+                    <li key={item.key}>
+                      <Link to={item.link}>{item.title}</Link>
+                    </li>
+                  ))}
                 </ul>
               </div>
             </div>
+
             <div className="ak-height-75 ak-height-lg-5"></div>
-            <div className="footer-info">
-              <div className="fooer-phn">
-                <a href={`tel:+32473175116{Footertext.phoneone}`}>{Footertext.phoneone}</a>
-                <br />
-                <a href={`tel:+32473175116{Footertext.phonetwo}`}>{Footertext.phonetwo}</a>
+
+            <div
+              className="footer-info"
+              style={{
+                display: "flex",
+                flexWrap: "wrap",
+                justifyContent: "center",
+                alignItems: "flex-start",
+                gap: "30px",
+                textAlign: "center",
+                marginTop: "30px",
+              }}
+            >
+              {/* Phone */}
+              <div
+                style={{
+                  flex: "1 1 200px",
+                  minWidth: "200px",
+                  color: "#fff",
+                }}
+              >
+                <a
+                  href="tel:+32473175116"
+                  style={{
+                    display: "block",
+                    color: "#fff",
+                    textDecoration: "none",
+                    fontSize: "15px",
+                    marginBottom: "6px",
+                  }}
+                >
+                  {Footertext.phoneone}
+                </a>
+                <a
+                  href="tel:+32473175116"
+                  style={{
+                    display: "block",
+                    color: "#fff",
+                    textDecoration: "none",
+                    fontSize: "15px",
+                  }}
+                >
+                  {Footertext.phonetwo}
+                </a>
               </div>
-              <div className="footer-address">
+
+              {/* Address */}
+              <div
+                style={{
+                  flex: "1 1 250px",
+                  minWidth: "220px",
+                  color: "#fff",
+                  lineHeight: "1.5",
+                }}
+              >
                 <a
                   href="https://maps.app.goo.gl/vdbgLVtuSSNnmgxLA"
                   target="_blank"
+                  rel="noreferrer"
+                  style={{
+                    color: "#fff",
+                    textDecoration: "none",
+                  }}
                 >
                   {Footertext.addressone}
                   <br />
                   {Footertext.addresstwo}
                 </a>
               </div>
-              <div className="footer-time">
-                <p>{Footertext.timeone}</p>
+
+              {/* Time */}
+              <div
+                style={{
+                  flex: "1 1 280px",
+                  minWidth: "240px",
+                  color: "#fff",
+                  lineHeight: "1.4",
+                }}
+              >
+                <p style={{ margin: "0 0 6px" }}>{Footertext.timeone}</p>
                 <div
-                  className="footer-time-border my-1"
                   ref={footerTimeBorder}
+                  style={{
+                    width: "100%",
+                    height: "1px",
+                    backgroundColor: "rgba(255,255,255,0.2)",
+                    margin: "6px 0",
+                  }}
                 ></div>
-                <p>{Footertext.timetwo}</p>
+                <p style={{ margin: "0 0 6px" }}>{Footertext.timetwo}</p>
+                <p
+                  style={{
+                    color: "#cfcfcf",
+                    fontSize: "13px",
+                    fontStyle: "italic",
+                    marginTop: "8px",
+                  }}
+                >
+                  {Footertext.timethree}
+                </p>
               </div>
-              <div className="footer-btn">
+
+              {/* Reservations Button */}
+              <div
+                style={{
+                  flex: "1 1 200px",
+                  minWidth: "200px",
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                }}
+              >
                 <WhiteButton to="/reservations">Reservations</WhiteButton>
               </div>
             </div>
@@ -156,6 +220,7 @@ export default function Footer() {
             className="ak-footer-hr-bottom qodef-grid-item"
             ref={footerHrBottom}
           ></div>
+
           <div className="ak-height-130 ak-height-lg-30"></div>
 
           <div className="copy-right-section">

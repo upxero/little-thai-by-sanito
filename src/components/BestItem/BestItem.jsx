@@ -8,7 +8,7 @@ const bestItem = {
   imgOne: "/assets/img/bestItem/bestItem1.jpg",
   imgTwo: "/assets/img/bestItem/bestItem2.jpg",
   details:
-    "Experience the essence of Thailand through Chef Sanito’s signature creations — a fusion of tradition, passion, and modern presentation. Each dish tells a story of balance between spice, flavor, and art.",
+    "Experience the essence of Thailand through Chef Sanito’s signature creations — a fusion of tradition, passion, and modern presentation. Each dish tells a story of the five elemental flavors: Sweet, Sour, Salty, Spicy, and Umami — a perfect balance between flavor and art.",
 };
 
 export default function BestItem() {
