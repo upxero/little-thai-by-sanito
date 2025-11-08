@@ -11,18 +11,21 @@ export async function handler(event, context) {
   const { name, email, phone, date, time, persons, message } = JSON.parse(event.body);
 
   try {
+    // Nodemailer transport configuratie
     const transporter = nodemailer.createTransport({
       host: "smtp-relay.brevo.com",
       port: 587,
       auth: {
-        user: process.env.BREVO_USER,
-        pass: process.env.BREVO_PASS,
+        user: process.env.BREVO_USER, // bv: mike.upxero@gmail.com
+        pass: process.env.BREVO_PASS, // je Brevo SMTP wachtwoord
       },
     });
 
+    // Mail verzenden
     await transporter.sendMail({
-      from: `"Little Thai by Sanito Reservations" <${process.env.BREVO_USER}>`,
-      to: process.env.RECEIVER_EMAIL,
+      from: `"Little Thai by Sanito Reservations" <${process.env.BREVO_USER}>`, // geverifieerd adres
+      replyTo: email, // klant e-mail
+      to: process.env.RECEIVER_EMAIL, // bv: mike.upxero@gmail.com
       subject: `New reservation from ${name}`,
       html: `
         <h3>New reservation received</h3>
