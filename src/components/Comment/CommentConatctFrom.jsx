@@ -1,53 +1,35 @@
-import React, { useState } from "react";
-import SectionTitle from "../SectionTitle/SectionTitle";
-import { SubmitButton } from "../Button/Button";
+import React from "react";
+import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt, FaClock } from "react-icons/fa";
 
-export default function CommentConatctFrom() {
-  const [inputs, setInputs] = useState({});
-
-  const handleChange = (event) => {
-    const name = event.target.name;
-    const value = event.target.value;
-    setInputs((values) => ({ ...values, [name]: value }));
-  };
-
-  const handleSubmit = (event) => {
-    event.preventDefault();
-    alert("Data send successfully");
-  };
-
+export default function ContactInfo() {
   return (
-    <form onSubmit={handleSubmit}>
-      <div className="from-input d-flex gap-2">
-        <input
-          placeholder="Name"
-          className="w-50"
-          type="text"
-          name="fristname"
-          value={inputs.fristname || ""}
-          onChange={handleChange}
-        />
-        <input
-          placeholder="Email"
-          className="w-50"
-          type="email"
-          name="email"
-          value={inputs.email || ""}
-          onChange={handleChange}
-        />
-      </div>
-      <div className="col-md-12">
-        <textarea
-          name="textarea"
-          rows="5"
-          value={inputs.textarea || ""}
-          onChange={handleChange}
-          className="col-12"
-          placeholder="Comment text."
-        />
-      </div>
-      <div className="ak-height-40 ak-height-lg-20"></div>
-      <SubmitButton>Post Comment</SubmitButton>
-    </form>
+    <div
+      className="contact-info"
+      style={{
+        maxWidth: "500px",
+        margin: "0 auto",
+        padding: "20px",
+        color: "#fff",
+        backgroundColor: "#222", // donkere achtergrond
+        borderRadius: "8px",
+      }}
+    >
+
+      <p><FaPhoneAlt style={{ marginRight: "8px" }} /> +32 (0) 473 17 51 16</p>
+      <p>
+        <FaEnvelope style={{ marginRight: "8px" }} />
+        <a href="mailto:littlethaibysanito@gmail.com" style={{ color: "#fff", textDecoration: "underline" }}>
+          littlethaibysanito@gmail.com
+        </a>
+      </p>
+      <p><FaMapMarkerAlt style={{ marginRight: "8px" }} /> Bolivarplaats 2, 2000 Antwerpen</p>
+      
+      <p><FaClock style={{ marginRight: "8px" }} /> Opening Hours:</p>
+      <ul style={{ paddingLeft: "24px" }}>
+        <li>Tue - Sat: 18:00 - 23:00</li>
+        <li>Fri & Sat (Cocktails & Finger Food): 22:00 - 02:00</li>
+        <li>Coming soon — Lunch on Wed, Thu & Fri: 12:00 - 14:30</li>
+      </ul>
+    </div>
   );
 }

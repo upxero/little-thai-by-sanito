@@ -8,7 +8,7 @@ export default function BookingSystem(props) {
     email: "",
     phone: "",
     date: "",
-    time: "Dinner",
+    time: "18:00",
     persons: "2",
     message: "",
   });
@@ -26,17 +26,14 @@ export default function BookingSystem(props) {
       return;
     }
 
-    const selectedDate = new Date(inputs.date);
-    if (selectedDate.getMonth() !== 10) {
-      alert("Reservations are only available for November.");
-      return;
-    }
-
     try {
-      const res = await fetch("/.netlify/functions/send-reservation", {
+      const formData = new FormData();
+      Object.entries(inputs).forEach(([key, value]) => formData.append(key, value));
+
+      const res = await fetch("https://formspree.io/f/mdkynaww", {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(inputs),
+        body: formData,
+        headers: { Accept: "application/json" },
       });
 
       if (res.ok) {
@@ -46,12 +43,13 @@ export default function BookingSystem(props) {
           email: "",
           phone: "",
           date: "",
-          time: "Dinner",
+          time: "18:00",
           persons: "2",
           message: "",
         });
       } else {
-        alert("Something went wrong. Please try again.");
+        const data = await res.json();
+        alert(data?.error || "Something went wrong. Please try again.");
       }
     } catch (err) {
       console.error("Error:", err);
@@ -63,12 +61,7 @@ export default function BookingSystem(props) {
     "style-2": props?.styleTwo,
   });
 
-  // Inline CSS - transparante stijl
-  const formContainerStyle = {
-    maxWidth: "500px",
-    margin: "0 auto",
-    padding: "20px 0",
-  };
+  const formContainerStyle = { maxWidth: "500px", margin: "0 auto", padding: "20px 0" };
   const inputStyle = {
     width: "100%",
     padding: "10px 12px",
@@ -80,18 +73,25 @@ export default function BookingSystem(props) {
     fontSize: "16px",
     outline: "none",
   };
-  const selectStyle = { ...inputStyle, appearance: "none" };
-  const textareaStyle = {
-    ...inputStyle,
-    minHeight: "90px",
-    resize: "vertical",
+  const selectStyle = { 
+    ...inputStyle, 
+    appearance: "none",
+    backgroundColor: "#333", // donkergrijze achtergrond
+    color: "#fff",           // witte letters
+    paddingRight: "12px"     // ruimte voor de dropdown-pijl
   };
-  const labelStyle = {
-    marginBottom: "6px",
-    display: "block",
-    fontWeight: "500",
-    color: "#fff",
-  };
+  const textareaStyle = { ...inputStyle, minHeight: "90px", resize: "vertical" };
+  const labelStyle = { marginBottom: "6px", display: "block", fontWeight: "500", color: "#fff" };
+
+  // Openingstijden opties
+  const timeOptions = [
+    "18:00", "19:00", "20:00", "21:00", "22:00", "23:00",
+    "22:00 (Fri & Sat Cocktails & Finger Food)",
+    "23:00 (Fri & Sat Cocktails & Finger Food)",
+    "00:00 (Fri & Sat Cocktails & Finger Food)",
+    "01:00 (Fri & Sat Cocktails & Finger Food)",
+    "02:00 (Fri & Sat Cocktails & Finger Food)"
+  ];
 
   return (
     <div style={formContainerStyle}>
@@ -139,29 +139,17 @@ export default function BookingSystem(props) {
         />
 
         <label style={labelStyle}>Time</label>
-        <select
-          name="time"
-          value={inputs.time}
-          onChange={handleChange}
-          disabled
-          style={selectStyle}
-        >
-          <option>Dinner</option>
+        <select name="time" value={inputs.time} onChange={handleChange} style={selectStyle} required>
+          {timeOptions.map((time) => (
+            <option key={time} value={time}>{time}</option>
+          ))}
         </select>
 
         <label style={labelStyle}>Guests</label>
-        <select
-          name="persons"
-          value={inputs.persons}
-          onChange={handleChange}
-          required
-          style={selectStyle}
-        >
-          <option value="1">1 person</option>
-          <option value="2">2 people</option>
-          <option value="3">3 people</option>
-          <option value="4">4 people</option>
-          <option value="5">5 people</option>
+        <select name="persons" value={inputs.persons} onChange={handleChange} required style={selectStyle}>
+          {[1, 2, 3, 4, 5].map((n) => (
+            <option key={n} value={n}>{n} {n === 1 ? "person" : "people"}</option>
+          ))}
         </select>
 
         <label style={labelStyle}>Message</label>
@@ -171,10 +159,9 @@ export default function BookingSystem(props) {
           value={inputs.message}
           onChange={handleChange}
           style={textareaStyle}
-        ></textarea>
+        />
 
-        {/* Zelfde stijl als bestaande SubmitButton */}
-        <SubmitButton>Send Reservation</SubmitButton>
+        <SubmitButton type="submit">Send Reservation</SubmitButton>
       </form>
     </div>
   );
