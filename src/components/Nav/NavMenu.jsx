@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import MenuItem from "./MenuItem";
 import logo from "/assets/img/logo/logo-sanito.png";
-
 import navitemlist from "../../dataJson/navitemlist.json";
 
 export default function NavMenu() {
@@ -10,17 +9,19 @@ export default function NavMenu() {
   const [navlist, setNavList] = useState("");
 
   const navBarShow = () => {
-    if (navBar == "") {
+    if (navBar === "") {
       setNavbar("ak-toggle_active");
-    } else {
-      setNavbar("");
-    }
-
-    if (navlist == "") {
       setNavList("ak-show-moblie-nav-list");
     } else {
+      setNavbar("");
       setNavList("");
     }
+  };
+
+  // ✅ Sluit menu bij klik op link
+  const handleLinkClick = () => {
+    setNavbar("");
+    setNavList("");
   };
 
   return (
@@ -35,12 +36,14 @@ export default function NavMenu() {
           <div className="ak-main_header_right">
             <div className="ak-nav ak-medium">
               <ul id="ak-nav_list" className={`ak-nav_list ${navlist}`}>
-                {navitemlist?.map((item, i) => {
-                  return <MenuItem props={item} key={i} />;
-                })}
+                {navitemlist?.map((item, i) => (
+                  <li key={i} onClick={handleLinkClick}>
+                    <Link to={item.link}>{item.title}</Link>
+                  </li>
+                ))}
               </ul>
               <span
-                onClick={() => navBarShow()}
+                onClick={navBarShow}
                 id="navBar"
                 className={`ak-munu_toggle ${navBar}`}
               >
