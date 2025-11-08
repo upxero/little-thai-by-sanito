@@ -1,0 +1,16 @@
+[build]
+  # Map waar je Vite build naartoe gaat
+  publish = "dist"
+
+  # Map waar Netlify functions staan
+  functions = "netlify/functions"
+
+# Optional: als je Vite een specifieke build command gebruikt
+[build]
+  command = "npm run build"
+
+# Redirects (optioneel, handig voor SPA)
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
