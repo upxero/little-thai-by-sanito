@@ -1,7 +1,8 @@
 import React, { useLayoutEffect, useRef } from "react";
+import { Link } from "react-router-dom";
 import VideoButton from "../VideoPopUp/VideoButton";
 import SectionTitle from "../SectionTitle/SectionTitle";
-import BookingSystem from "./BookingSystem";
+import { SubmitButton } from "../Button/Button";
 import { imageZoomInOut } from "../../helper/main";
 import bookingSystemBg from "/assets/img/bg/lights-sanito.png";
 
@@ -12,6 +13,7 @@ export default function BookingSystemTwo({ videoId }) {
   useLayoutEffect(() => {
     imageZoomInOut(imageContainer.current, imageZoomIn.current);
   }, [videoId]);
+
   return (
     <>
       <div className="ak-height-150 ak-height-lg-60"></div>
@@ -39,7 +41,14 @@ export default function BookingSystemTwo({ videoId }) {
                     animTwo={true}
                   />
                   <div className="ak-height-60 ak-height-lg-30"></div>
-                  <BookingSystem />
+
+                  {/* Linkse knop */}
+                  <div style={{ textAlign: "left" }}>
+                    <Link to="/reservations">
+                      <SubmitButton type="button">Reservation</SubmitButton>
+                    </Link>
+                  </div>
+
                 </div>
               </div>
             </div>
