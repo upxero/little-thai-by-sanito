@@ -14,16 +14,17 @@ export async function handler(event, context) {
     const transporter = nodemailer.createTransport({
       host: "smtp-relay.brevo.com",
       port: 587,
+      secure: false,
       auth: {
-        user: process.env.BREVO_USER, // sanito@upxero.com
+        user: process.env.BREVO_USER,
         pass: process.env.BREVO_PASS,
       },
     });
 
     await transporter.sendMail({
-      from: `"Little Thai by Sanito Reservations" <${process.env.BREVO_USER}>`,
-      to: process.env.RECEIVER_EMAIL, // mike.upxero@gmail.com
-      replyTo: email, // zodat je rechtstreeks naar de klant kan antwoorden
+      from: `"Little Thai Reservations" <${process.env.BREVO_USER}>`, // moet gevalideerd zijn in Brevo
+      to: process.env.RECEIVER_EMAIL, // je Gmail kan hier
+      replyTo: email, // klant e-mail voor antwoord
       subject: `New reservation from ${name}`,
       html: `
         <h3>New reservation received</h3>
