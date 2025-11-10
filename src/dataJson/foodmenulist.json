@@ -2,89 +2,51 @@
   {
     "foodMenu": [
       {
-        "title": "Tom Yum Goong (Spicy Shrimp Soup)",
-        "price": "€12",
-        "image": "/assets/img/itemShow/tom-yum-goong.png",
-        "subTitle": "Aromatic Thai soup with shrimp, lemongrass & lime",
-        "priceSubTitle": "Served hot"
+        "title": "Muay Thai Negroni",
+        "price": "",
+        "image": "/assets/img/itemShow/muay-thai-negroni.png",
+        "subTitle": "Chili-infused gin • Campari • Sweet vermouth • Kaffir lime",
+        "priceSubTitle": "Strength, balance & fire in one glass"
       },
       {
-        "title": "Som Tum (Green Papaya Salad)",
-        "price": "€10",
-        "image": "/assets/img/itemShow/som-tum.png",
-        "subTitle": "Fresh, spicy salad with peanuts & lime dressing",
-        "priceSubTitle": "Vegan friendly"
+        "title": "Tuk Tuk Martini",
+        "price": "",
+        "image": "/assets/img/itemShow/tuk-tuk-martini.png",
+        "subTitle": "Dry gin • Lemongrass • Dry vermouth • Kaffir lime oil",
+        "priceSubTitle": "Shaken, not stirred – James Bond in Siam"
       },
       {
-        "title": "Satay Chicken Skewers",
-        "price": "€11",
-        "image": "/assets/img/itemShow/satay-chicken.png",
-        "subTitle": "Grilled marinated chicken with peanut sauce",
-        "priceSubTitle": "Perfect starter"
+        "title": "Mango Coco Bellini",
+        "price": "",
+        "image": "/assets/img/itemShow/mango-coco-bellini.png",
+        "subTitle": "Prosecco • Mango purée • Coconut liqueur • Lime mist",
+        "priceSubTitle": "Golden & luminous – the butterfly’s kiss at sunset"
       },
       {
-        "title": "Spring Rolls (Vegetable)",
-        "price": "€9",
-        "image": "/assets/img/itemShow/spring-rolls.png",
-        "subTitle": "Crispy rolls with sweet chili sauce",
-        "priceSubTitle": "Vegan friendly"
+        "title": "The Kinky Lady & The Kinky Gentlemen",
+        "price": "",
+        "image": "/assets/img/itemShow/kinky-lady.png",
+        "subTitle": "Vodka • Thai chili • Passionfruit • Lime • Lemongrass foam",
+        "priceSubTitle": "Fiery and seductive — sweet heat that teases and lingers"
       },
       {
-        "title": "Crispy Prawn Tempura",
-        "price": "€13",
-        "image": "/assets/img/itemShow/prawn-tempura.png",
-        "subTitle": "Lightly fried prawns with dipping sauce",
-        "priceSubTitle": "Delicious & crunchy"
+        "title": "The Butterfly Effect",
+        "price": "",
+        "image": "/assets/img/itemShow/butterfly-effect.png",
+        "subTitle": "Gin • Blue butterfly pea • Elderflower • Yuzu • Champagne top-up",
+        "priceSubTitle": "Color that transforms — beauty in motion"
+      },
+      {
+        "title": "One Night In Bangkok",
+        "price": "",
+        "image": "/assets/img/itemShow/one-night-in-bangkok.png",
+        "subTitle": "Tequila Reposado • Tamarind • Belgian honey • Lime • Chili salt rim",
+        "priceSubTitle": "A smoky, spicy serenade"
       }
     ],
     "headingtext": {
-      "title": "Starters",
-      "subTitle": "Delicious Thai Appetizers",
-      "tyle": "center"
-    },
-    "bgImgShow": "/assets/img/bg/menuBg.png"
-  },
-  {
-    "foodMenu": [
-      {
-        "title": "Pad Thai (Stir-fried Noodles)",
-        "price": "€14",
-        "image": "/assets/img/itemShow/pad-thai.png",
-        "subTitle": "Rice noodles with prawns, tofu & peanuts",
-        "priceSubTitle": "Classic Thai dish"
-      },
-      {
-        "title": "Green Curry with Chicken",
-        "price": "€15",
-        "image": "/assets/img/itemShow/green-curry.png",
-        "subTitle": "Spicy coconut curry with Thai herbs",
-        "priceSubTitle": "Served with jasmine rice"
-      },
-      {
-        "title": "Massaman Beef Curry",
-        "price": "€16",
-        "image": "/assets/img/itemShow/massaman-beef.png",
-        "subTitle": "Rich curry with tender beef & potatoes",
-        "priceSubTitle": "Mild & flavorful"
-      },
-      {
-        "title": "Thai Basil Chicken (Pad Krapow Gai)",
-        "price": "€13",
-        "image": "/assets/img/itemShow/pad-krapow-gai.png",
-        "subTitle": "Stir-fried chicken with chili & basil",
-        "priceSubTitle": "Spicy & aromatic"
-      },
-      {
-        "title": "Fried Rice with Pineapple",
-        "price": "€12",
-        "image": "/assets/img/itemShow/pineapple-fried-rice.png",
-        "subTitle": "Sweet & savory fried rice with prawns",
-        "priceSubTitle": "Served in pineapple shell"
-      }
-    ],
-    "headingtext": {
-      "title": "Main Courses",
-      "subTitle": "Authentic Thai Specialties",
+      "title": "Signature Cocktails",
+      "subTitle": "Creative Thai-inspired Cocktails",
       "tyle": "center"
     },
     "bgImgShow": "/assets/img/bg/barMenuBg.png"
@@ -92,44 +54,204 @@
   {
     "foodMenu": [
       {
-        "title": "Mango Sticky Rice",
-        "price": "€8",
-        "image": "/assets/img/itemShow/mango-sticky-rice.png",
-        "subTitle": "Sweet coconut sticky rice with fresh mango",
-        "priceSubTitle": "Classic Thai dessert"
+        "title": "Tom Yum Noir – Black Tiger Symphony",
+        "price": "",
+        "image": "/assets/img/itemShow/tom-yum-noir.png",
+        "subTitle": "Clear Tom Yum broth with lemongrass, galangal, kaffir lime & grilled Black Tiger prawns.",
+        "priceSubTitle": "Fiery Thai soul performed with European grace."
       },
       {
-        "title": "Coconut Ice Cream",
-        "price": "€6",
-        "image": "/assets/img/itemShow/coconut-ice-cream.png",
-        "subTitle": "Refreshing coconut ice cream with toppings",
-        "priceSubTitle": "Vegan friendly"
+        "title": "Tom Kha Kai – Cappuccino The Coconut",
+        "price": "",
+        "image": "/assets/img/itemShow/tom-kha-kai.png",
+        "subTitle": "Coconut–galangal soup with tender Belgian chicken & kaffir lime foam.",
+        "priceSubTitle": "Tradition reborn in a modern silk of coconut and spice."
       },
       {
-        "title": "Fried Banana with Honey",
-        "price": "€7",
-        "image": "/assets/img/itemShow/fried-banana.png",
-        "subTitle": "Crispy banana fritters drizzled with honey",
-        "priceSubTitle": "Sweet & crunchy"
+        "title": "Croquette Siam – Massaman de Flandre",
+        "price": "",
+        "image": "/assets/img/itemShow/croquette-siam.png",
+        "subTitle": "Thai–Belgian croquettes of slow-braised Massaman beef & potato, tamarind-ale glaze.",
+        "priceSubTitle": "Belgian heart meets Thai chili soul in a golden embrace."
       },
       {
-        "title": "Thai Tea Panna Cotta",
-        "price": "€8",
-        "image": "/assets/img/itemShow/thai-tea-panna-cotta.png",
-        "subTitle": "Creamy dessert infused with Thai tea",
-        "priceSubTitle": "Elegant & flavorful"
+        "title": "Butterfly Spring Roll – Garden of Light",
+        "price": "",
+        "image": "/assets/img/itemShow/butterfly-spring-roll.png",
+        "subTitle": "Fried rice paper rolls with prawns, mango, avocado & Thai basil, butterfly pea dip.",
+        "priceSubTitle": "Beauty in motion — the butterfly of LittleThaiBySanito."
       },
       {
-        "title": "Durian Cheesecake (Optional)",
-        "price": "€9",
-        "image": "/assets/img/itemShow/durian-cheesecake.png",
-        "subTitle": "Unique Thai cheesecake with durian flavor",
-        "priceSubTitle": "For adventurous eaters"
+        "title": "Black Tiger Dumplings – Phuket Noir",
+        "price": "",
+        "image": "/assets/img/itemShow/black-tiger-dumplings.png",
+        "subTitle": "Charcoal dumplings with Black Tiger prawns, soy–lime emulsion & gold leaf.",
+        "priceSubTitle": "Mystery and elegance — power folded in beauty."
+      },
+      {
+        "title": "Thai Tartare – Belgian Blue in Thai Lime",
+        "price": "",
+        "image": "/assets/img/itemShow/thai-tartare.png",
+        "subTitle": "Belgian Blue beef tartare with chili, lime, shallot & roasted rice, topped with crispy dumpling tost.",
+        "priceSubTitle": "A handshake between Belgium and Thailand — raw, pure, alive."
+      },
+      {
+        "title": "Tod Man Pla – Golden Fish Cake Bites",
+        "price": "",
+        "image": "/assets/img/itemShow/tod-man-pla.png",
+        "subTitle": "North Sea cod cakes with kaffir lime, turmeric aioli & sweet chili glaze.",
+        "priceSubTitle": "Golden treasures from the Andaman Sea."
+      },
+      {
+        "title": "Satay Royale – Grill The Poulet",
+        "price": "",
+        "image": "/assets/img/itemShow/satay-royale.png",
+        "subTitle": "Premium chicken or pork satay with coconut–turmeric marinade & peanut sauce.",
+        "priceSubTitle": "Street fire dressed in royal silk."
+      }
+    ],
+    "headingtext": {
+      "title": "Starters",
+      "subTitle": "The Art of Thai Elegance",
+      "tyle": "center"
+    },
+    "bgImgShow": "/assets/img/bg/menuBg.png"
+  },
+  {
+    "foodMenu": [
+      {
+        "title": "Bangkok Duck – Red Curry & Chicory Glaze",
+        "price": "",
+        "image": "/assets/img/itemShow/bangkok-duck.png",
+        "subTitle": "Seared duck breast with red curry, coconut, baby eggplants, sweet basil, and grilled chicory.",
+        "priceSubTitle": "Fiery elegance in balance."
+      },
+      {
+        "title": "Khiao Wan Ayutthaya – Essence of Balance",
+        "price": "",
+        "image": "/assets/img/itemShow/green-curry-chicken.png",
+        "subTitle": "Chicken simmered in creamy green curry, coconut milk, baby eggplants, kaffir lime & sweet basil.",
+        "priceSubTitle": "Harmony in every bite."
+      },
+      {
+        "title": "Chao Phraya Rouge – Essence of Passion",
+        "price": "",
+        "image": "/assets/img/itemShow/chao-phraya-rouge.png",
+        "subTitle": "Red curry of Chicken, Beef or Prawn with coconut milk, eggplants, pineapple & Thai basil.",
+        "priceSubTitle": "Where Thai fire flows with Belgian warmth."
+      },
+      {
+        "title": "Kua Kling Moo – Spirit of the South",
+        "price": "",
+        "image": "/assets/img/itemShow/kua-kling-moo.png",
+        "subTitle": "Dry-fried Belgian pork with Southern Thai yellow curry, kaffir lime & turmeric.",
+        "priceSubTitle": "Bold, golden & unapologetically real."
+      },
+      {
+        "title": "Siam Black Pepper – Fire & Grace",
+        "price": "",
+        "image": "/assets/img/itemShow/siam-black-pepper.png",
+        "subTitle": "Belgian Blue beef wok-fried with black pepper, garlic & Thai soy caramel.",
+        "priceSubTitle": "Bold heat and refined elegance in harmony."
+      },
+      {
+        "title": "Golden Wok – Essence of Harmony",
+        "price": "",
+        "image": "/assets/img/itemShow/golden-wok.png",
+        "subTitle": "Stir-fried chicken with roasted cashew nuts, dried chili, onion & tamarind glaze.",
+        "priceSubTitle": "A golden balance of sweet, salty & spice."
+      },
+      {
+        "title": "Holy Smoke Basil – Pad Krapow Opera",
+        "price": "",
+        "image": "/assets/img/itemShow/pad-krapow-opera.png",
+        "subTitle": "Stir-fried holy basil with chicken or beef, chili & garlic in smoky wok aroma.",
+        "priceSubTitle": "A street classic reborn in fine-dining harmony."
+      },
+      {
+        "title": "Andaman Pearl – Seabass & Kaffir Lime Beurre Blanc",
+        "price": "",
+        "image": "/assets/img/itemShow/andaman-pearl.png",
+        "subTitle": "Steamed seabass with Thai herbs, lime leaf green seafood & chili-lime foam.",
+        "priceSubTitle": "Delicate as a butterfly wing, strong as the ocean tide."
+      },
+      {
+        "title": "Crying Tigers – Tigers Don't Cry",
+        "price": "",
+        "image": "/assets/img/itemShow/crying-tigers.png",
+        "subTitle": "Grilled beef filet Thai-style with spicy dipping sauce and sticky rice.",
+        "priceSubTitle": "Flame, smoke & heart — a story of strength and passion."
+      },
+      {
+        "title": "Pad Thai Black Tiger – The Golden Thread",
+        "price": "",
+        "image": "/assets/img/itemShow/pad-thai-black-tiger.png",
+        "subTitle": "Classic Pad Thai noodles with tamarind caramel, roasted peanuts & Black Tiger prawns or Chicken.",
+        "priceSubTitle": "Thailand’s national pride reborn with elegance and glow."
+      },
+      {
+        "title": "Som Tam Gai Yang – The Spirit of Isaan",
+        "price": "",
+        "image": "/assets/img/itemShow/som-tam-gai-yang.png",
+        "subTitle": "Green papaya salad with grilled chicken or Black Tiger prawns and sticky rice.",
+        "priceSubTitle": "Freshness, fire & soul — the beating heart of Thai life."
+      },
+      {
+        "title": "Siam Aubergine Silk",
+        "price": "",
+        "image": "/assets/img/itemShow/siam-aubergine.png",
+        "subTitle": "Grilled Belgian aubergine • Red curry coconut cream • Kaffir lime crumble",
+        "priceSubTitle": "Soft, smoky & aromatic — the essence of Thai comfort."
+      },
+      {
+        "title": "Larb Flanders – Isaan Soul Meets Westvlaanderen",
+        "price": "",
+        "image": "/assets/img/itemShow/larb-flanders.png",
+        "subTitle": "Spicy minced pork salad with lime, chili & herbs, inspired by Belgian produce.",
+        "priceSubTitle": "The warmth of Isaan mingles with the heart of Flanders."
+      },
+      {
+        "title": "Rainbow Fried Rice – Harmony of the Gulf",
+        "price": "",
+        "image": "/assets/img/itemShow/rainbow-fried-rice.png",
+        "subTitle": "Wok-fried jasmine rice with glass noodles, prawns, ham, onion, carrot & sweet pepper.",
+        "priceSubTitle": "A colorful symphony of Thai & European flavors."
+      }
+    ],
+    "headingtext": {
+      "title": "Main Courses",
+      "subTitle": "The Heart of Thai Soul and Belgian Art",
+      "tyle": "center"
+    },
+    "bgImgShow": "/assets/img/bg/menuBg.png"
+  },
+  {
+    "foodMenu": [
+      {
+        "title": "Thai Basil Crème Brûlée",
+        "price": "",
+        "image": "/assets/img/itemShow/thai-basil-creme-brulee.png",
+        "subTitle": "Lemongrass caramel and gold leaf on top.",
+        "priceSubTitle": "Elegant and balanced."
+      },
+      {
+        "title": "Mango Butterfly Garden",
+        "price": "",
+        "image": "/assets/img/itemShow/mango-butterfly-garden.png",
+        "subTitle": "Mango and sticky rice, passionfruit gel & edible butterfly tuile.",
+        "priceSubTitle": "Sweet and artistic."
+      },
+      {
+        "title": "Crispy Thai Pancake",
+        "price": "",
+        "image": "/assets/img/itemShow/crispy-thai-pancake.png",
+        "subTitle": "Crispy Thai pancake with a touch of coconut and sweetness.",
+        "priceSubTitle": "A perfect ending."
       }
     ],
     "headingtext": {
       "title": "Desserts",
-      "subTitle": "Sweet Thai Delights",
+      "subTitle": "Still under construction — coming soon",
       "tyle": "center"
     },
     "bgImgShow": "/assets/img/bg/bessertsMenuBg.png"

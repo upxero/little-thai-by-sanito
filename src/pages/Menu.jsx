@@ -10,7 +10,7 @@ export default function Menu() {
   const imageZoomIns = useRef([]);
 
   // Zet dit op false om menu te verbergen
-  const showMenu = false;
+  const showMenu = true;
 
   useLayoutEffect(() => {
     if (showMenu) {
@@ -26,6 +26,11 @@ export default function Menu() {
   return (
     <div>
       <CommonHero title={"Our Menu"} link={"/"} />
+      <div style={{ textAlign: "center", marginTop: "30px", color: "#FFD28D" }}>
+        <p style={{ fontSize: "1.1rem", fontStyle: "italic" }}>
+          Menu still under construction — prices will be added soon.
+        </p>
+      </div>
 
       {!showMenu ? (
         // ✅ Coming Soon weergave

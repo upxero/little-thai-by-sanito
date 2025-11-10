@@ -9,6 +9,7 @@ export default function BookingSystem(props) {
     phone: "",
     date: "",
     time: "18:00",
+    finishTime: "", // 👈 nieuw veld
     persons: "2",
     message: "",
   });
@@ -44,6 +45,7 @@ export default function BookingSystem(props) {
           phone: "",
           date: "",
           time: "18:00",
+          finishTime: "", // resetten
           persons: "2",
           message: "",
         });
@@ -76,18 +78,18 @@ export default function BookingSystem(props) {
   const selectStyle = { 
     ...inputStyle, 
     appearance: "none",
-    backgroundColor: "#333", // donkergrijze achtergrond
-    color: "#fff",           // witte letters
-    paddingRight: "12px"     // ruimte voor de dropdown-pijl
+    backgroundColor: "#040D10",
+    color: "#fff",
+    paddingRight: "12px"
   };
   const textareaStyle = { ...inputStyle, minHeight: "90px", resize: "vertical" };
   const labelStyle = { marginBottom: "6px", display: "block", fontWeight: "500", color: "#fff" };
 
-  // Openingstijden opties
+  // Openingsuren
   const timeOptions = [
-    "18:00", "19:00", "20:00", "21:00", "22:00", "23:00",
-    "22:00 (Fri & Sat Cocktails & Finger Food)",
-    "23:00 (Fri & Sat Cocktails & Finger Food)",
+    "18:00", "18:30", "19:00", "19:30", "20:00", "20:30",
+    "21:00", "21:30", "22:00", "22:30", "23:00",
+    "23:30 (Fri & Sat Cocktails & Finger Food)",
     "00:00 (Fri & Sat Cocktails & Finger Food)",
     "01:00 (Fri & Sat Cocktails & Finger Food)",
     "02:00 (Fri & Sat Cocktails & Finger Food)"
@@ -138,8 +140,22 @@ export default function BookingSystem(props) {
           style={inputStyle}
         />
 
-        <label style={labelStyle}>Time</label>
+        <label style={labelStyle}>Reservation Time</label>
         <select name="time" value={inputs.time} onChange={handleChange} style={selectStyle} required>
+          {timeOptions.map((time) => (
+            <option key={time} value={time}>{time}</option>
+          ))}
+        </select>
+
+        {/* 👇 Nieuw veld: wanneer ze verwachten klaar te zijn */}
+        <label style={labelStyle}>Expected Finish Time (optional)</label>
+        <select
+          name="finishTime"
+          value={inputs.finishTime}
+          onChange={handleChange}
+          style={selectStyle}
+        >
+          <option value="">Select finish time (optional)</option>
           {timeOptions.map((time) => (
             <option key={time} value={time}>{time}</option>
           ))}
