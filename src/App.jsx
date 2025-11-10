@@ -16,6 +16,7 @@ import Chefdetails from "./pages/Chefdetails";
 import Portfoliodetails from "./pages/Portfoliodetails";
 import Blog from "./pages/Blog";
 import Blogdetails from "./pages/Blogdetails";
+import ReservationSuccess from "./pages/ReservationSuccess";
 
 export default function App() {
   return (
@@ -39,6 +40,7 @@ export default function App() {
         <Route path="/gallery" element={<Gallery />}></Route>
         <Route path="/comming-soon" element={<Comming />}></Route>
         <Route path="/*" element={<ErrorPages />}></Route>
+        <Route path="/reservation-success" element={<ReservationSuccess />} />
       </Route>
     </Routes>
   );

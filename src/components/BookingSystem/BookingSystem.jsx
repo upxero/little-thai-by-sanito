@@ -1,15 +1,18 @@
 import React, { useState } from "react";
 import classNames from "classnames";
 import { SubmitButton } from "../Button/Button";
+import { useNavigate } from "react-router-dom";
 
 export default function BookingSystem(props) {
+  const navigate = useNavigate();
+
   const [inputs, setInputs] = useState({
     name: "",
     email: "",
     phone: "",
     date: "",
     time: "18:00",
-    finishTime: "", // 👈 nieuw veld
+    finishTime: "", 
     persons: "2",
     message: "",
   });
@@ -38,17 +41,19 @@ export default function BookingSystem(props) {
       });
 
       if (res.ok) {
-        alert("Your reservation has been sent successfully!");
+        // reset form
         setInputs({
           name: "",
           email: "",
           phone: "",
           date: "",
           time: "18:00",
-          finishTime: "", // resetten
+          finishTime: "", 
           persons: "2",
           message: "",
         });
+        // redirect naar bedankpagina
+        navigate("/reservation-success");
       } else {
         const data = await res.json();
         alert(data?.error || "Something went wrong. Please try again.");
@@ -147,7 +152,6 @@ export default function BookingSystem(props) {
           ))}
         </select>
 
-        {/* 👇 Nieuw veld: wanneer ze verwachten klaar te zijn */}
         <label style={labelStyle}>Expected Finish Time (optional)</label>
         <select
           name="finishTime"
