@@ -71,6 +71,18 @@ export default function Footer() {
                 </svg>
               </div>
               <img src={elegenciaLogo} alt="Little Thai By Sanito logo" />
+              <p
+              style={{
+                color: "#fff",
+                fontSize: "14px",
+                marginTop: "8px",
+                textAlign: "center",
+                fontStyle: "italic",
+                letterSpacing: "1px",
+              }}
+            >
+             - Wings of Siam Elegance -
+            </p>
             </div>
           </div>
 
