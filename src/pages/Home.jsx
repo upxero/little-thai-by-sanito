@@ -18,6 +18,7 @@ export default function Home() {
         <title>Little Thai By Sanito - Home</title>
         <meta name="description" content="Authentic Thai food in Antwerp. Reserve a table online or check our menu." />
         <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="https://littlethaibysanito.be/" />
 
         {/* JSON-LD Structured Data */}
         <script type="application/ld+json">

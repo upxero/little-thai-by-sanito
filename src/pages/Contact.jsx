@@ -14,6 +14,7 @@ export default function Contact() {
         <title>Contact Us - Little Thai By Sanito</title>
         <meta name="description" content="Contact Little Thai By Sanito in Antwerp. Find our address, opening hours, and send us a message." />
         <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="https://littlethaibysanito.be/contact" />
 
         {/* JSON-LD Structured Data for Contact / Local Business */}
         <script type="application/ld+json">

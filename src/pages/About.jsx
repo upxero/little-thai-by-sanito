@@ -13,6 +13,7 @@ export default function About() {
         <title>About Us - Little Thai By Sanito</title>
         <meta name="description" content="Learn more about Little Thai By Sanito, our story, and our passion for authentic Thai cuisine in Antwerp." />
         <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="https://littlethaibysanito.be/about" />
 
         {/* JSON-LD Structured Data for About page */}
         <script type="application/ld+json">

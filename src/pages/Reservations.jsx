@@ -17,6 +17,7 @@ export default function Reservations() {
           content="Book your table online at Little Thai By Sanito. Enjoy authentic Thai cuisine in Antwerp. Reserve now!"
         />
         <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="https://littlethaibysanito.be/reservations" />
 
         {/* JSON-LD Structured Data */}
         <script type="application/ld+json">

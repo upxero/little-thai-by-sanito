@@ -32,6 +32,7 @@ export default function Menu() {
           content="Discover the authentic Thai dishes at Little Thai By Sanito. Browse our delicious menu and find your favorite flavors."
         />
         <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="https://littlethaibysanito.be/menu" />
 
         {/* JSON-LD Structured Data */}
         <script type="application/ld+json">
