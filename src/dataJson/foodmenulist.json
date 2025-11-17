@@ -3,42 +3,42 @@
     "foodMenu": [
       {
         "title": "Muay Thai Negroni",
-        "price": "",
+        "price": "€13.00",
         "image": "/assets/img/itemShow/muay-thai-negroni.png",
         "subTitle": "Chili-infused gin • Campari • Sweet vermouth • Kaffir lime",
         "priceSubTitle": "Strength, balance & fire in one glass"
       },
       {
         "title": "Tuk Tuk Martini",
-        "price": "",
+        "price": "€13.00",
         "image": "/assets/img/itemShow/tuk-tuk-martini.png",
         "subTitle": "Dry gin • Lemongrass • Dry vermouth • Kaffir lime oil",
         "priceSubTitle": "Shaken, not stirred – James Bond in Siam"
       },
       {
         "title": "Mango Coco Bellini",
-        "price": "",
+        "price": "€13.00",
         "image": "/assets/img/itemShow/mango-coco-bellini.png",
         "subTitle": "Prosecco • Mango purée • Coconut liqueur • Lime mist",
         "priceSubTitle": "Golden & luminous – the butterfly’s kiss at sunset"
       },
       {
         "title": "The Kinky Lady & The Kinky Gentlemen",
-        "price": "",
+        "price": "€13.00",
         "image": "/assets/img/itemShow/kinky-lady.png",
         "subTitle": "Vodka • Thai chili • Passionfruit • Lime • Lemongrass foam",
         "priceSubTitle": "Fiery and seductive — sweet heat that teases and lingers"
       },
       {
         "title": "The Butterfly Effect",
-        "price": "",
+        "price": "€13.00",
         "image": "/assets/img/itemShow/butterfly-effect.png",
         "subTitle": "Gin • Blue butterfly pea • Elderflower • Yuzu • Champagne top-up",
         "priceSubTitle": "Color that transforms — beauty in motion"
       },
       {
         "title": "One Night In Bangkok",
-        "price": "",
+        "price": "€13.00",
         "image": "/assets/img/itemShow/one-night-in-bangkok.png",
         "subTitle": "Tequila Reposado • Tamarind • Belgian honey • Lime • Chili salt rim",
         "priceSubTitle": "A smoky, spicy serenade"
@@ -82,11 +82,11 @@
         "priceSubTitle": "Street fire dressed in royal silk. 🥜 E • 🌾 A • 🌱 F • ⚪ K"
       },
       {
-        "title": "Tod Man Goong – Andaman Golden Shrimp Cake",
-        "price": "€16.00",
+        "title": "Tod Man Goong – Andaman Golden Shrimp Cake - ทอดมันกุ้ง",
+        "price": "€16.50",
         "image": "/assets/img/itemShow/tod-man-goong.png",
-        "subTitle": "Thai prawn cake with crispy panko crust, served on mango–cucumber salsa. Krokant Thais garnalenkoekje met panko, geserveerd op mango–komkommer salsa.",
-        "priceSubTitle": "A refined bite of the Andaman — warm spice, cool mango, pure silk texture. 🦐 B • 🥚 C • 🐟 D • 🌾 A • 🌱 F • ⚪ K"
+        "subTitle": "Inspired by Talented Nuisy Laureyns at Antwerpen Proeft 2024 • Thai prawn cake with crispy panko crust, served on mango–cucumber salsa.",
+        "priceSubTitle": "Een verfijnde hap van Samut Songkhram — warme kruiden, koele mango en een zijdezachte textuur. 🦐 B • 🥚 C • 🐟 D • 🌾 A • 🌱 F • ⚪ K"
       },
       {
         "title": "Black Tiger Dumplings – Phuket Noir",
@@ -113,102 +113,88 @@
   {
     "foodMenu": [
       {
-        "title": "Bangkok Duck – Red Curry & Chicory Glaze",
-        "price": "",
-        "image": "/assets/img/itemShow/bangkok-duck.png",
-        "subTitle": "Seared duck breast with red curry, coconut, baby eggplants, sweet basil, and grilled chicory.",
-        "priceSubTitle": "Fiery elegance in balance."
-      },
-      {
-        "title": "Khiao Wan Ayutthaya – Essence of Balance",
-        "price": "",
+        "title": "Khiao Wan Ayutthaya – Green Curry - แกงเขียวหวาน 🌶 Mid",
+        "price": "Chicken €25.50 / Beef €28.50 / Prawn €29.50",
         "image": "/assets/img/itemShow/green-curry-chicken.png",
-        "subTitle": "Chicken simmered in creamy green curry, coconut milk, baby eggplants, kaffir lime & sweet basil.",
-        "priceSubTitle": "Harmony in every bite."
+        "subTitle": "Groene curry in Ayutthaya-stijl met kip, aubergines, basilicum & kokosroom. Ayutthaya-style green curry with chicken, eggplants, basil & coconut milk.",
+        "priceSubTitle": "🐟 D"
       },
       {
-        "title": "Chao Phraya Rouge – Essence of Passion",
-        "price": "",
+        "title": "Chao Phraya Rouge – Red Curry of Passion - แกงแดง 🌶 Mild",
+        "price": "Chicken €25.50 / Beef €28.50 / Prawn €29.50",
         "image": "/assets/img/itemShow/chao-phraya-rouge.png",
-        "subTitle": "Red curry of Chicken, Beef or Prawn with coconut milk, eggplants, pineapple & Thai basil.",
-        "priceSubTitle": "Where Thai fire flows with Belgian warmth."
+        "subTitle": "Rode curry met kip, rund of garnaal, kokosmelk, aubergines, ananas & basilicum. Red curry of chicken, beef or prawn with coconut milk, eggplants, pineapple & Thai basil.",
+        "priceSubTitle": "🦐 B • 🐟 D"
       },
       {
-        "title": "Kua Kling Moo – Spirit of the South",
-        "price": "",
-        "image": "/assets/img/itemShow/kua-kling-moo.png",
-        "subTitle": "Dry-fried Belgian pork with Southern Thai yellow curry, kaffir lime & turmeric.",
-        "priceSubTitle": "Bold, golden & unapologetically real."
+        "title": "Bangkok Duck – Red Curry & Chicory Glaze - แกงเผ็ดเป็ดย่าง 🌶 Mid",
+        "price": "€29.50",
+        "image": "/assets/img/itemShow/bangkok-duck.png",
+        "subTitle": "Gebakken eendenborst met rode curry, kokos, aubergines, Thaise basilicum & gegrild witloof. Seared duck breast with red curry, coconut, eggplants, sweet basil & grilled chicory.",
+        "priceSubTitle": "🐟 D"
       },
       {
-        "title": "Siam Black Pepper – Fire & Grace",
-        "price": "",
-        "image": "/assets/img/itemShow/siam-black-pepper.png",
-        "subTitle": "Belgian Blue beef wok-fried with black pepper, garlic & Thai soy caramel.",
-        "priceSubTitle": "Bold heat and refined elegance in harmony."
-      },
-      {
-        "title": "Golden Wok – Essence of Harmony",
-        "price": "",
-        "image": "/assets/img/itemShow/golden-wok.png",
-        "subTitle": "Stir-fried chicken with roasted cashew nuts, dried chili, onion & tamarind glaze.",
-        "priceSubTitle": "A golden balance of sweet, salty & spice."
-      },
-      {
-        "title": "Holy Smoke Basil – Pad Krapow Opera",
-        "price": "",
+        "title": "Holy Smoke Basil – Pad Krapow Opera - ผัดกระเพรา 🌶🌶 Medium",
+        "price": "Chicken €24.50 / Beef €27.50",
         "image": "/assets/img/itemShow/pad-krapow-opera.png",
-        "subTitle": "Stir-fried holy basil with chicken or beef, chili & garlic in smoky wok aroma.",
-        "priceSubTitle": "A street classic reborn in fine-dining harmony."
+        "subTitle": "Thaise roerbak met holy basil, chili, knoflook, groenten & keuze uit kipgehakt of rundvlees. Thai holy basil stir-fry with chili, garlic, minced chicken or beef.",
+        "priceSubTitle": "🌱 F • 🐟 D* • 🌾 A*"
       },
       {
-        "title": "Andaman Pearl – Seabass & Kaffir Lime Beurre Blanc",
-        "price": "",
-        "image": "/assets/img/itemShow/andaman-pearl.png",
-        "subTitle": "Steamed seabass with Thai herbs, lime leaf green seafood & chili-lime foam.",
-        "priceSubTitle": "Delicate as a butterfly wing, strong as the ocean tide."
+        "title": "Golden Wok – Cashew Chicken Harmony - ไก่เม็ดมะม่วง",
+        "price": "€27.50",
+        "image": "/assets/img/itemShow/golden-wok.png",
+        "subTitle": "Roergebakken kip met geroosterde cashewnoten, groenten & milde chili-jam. Stir-fried chicken with roasted cashew nuts, vegetables & mild chili jam.",
+        "priceSubTitle": "🌰 H • 🌱 F • 🌾 A"
       },
       {
-        "title": "Crying Tigers – Tigers Don't Cry",
-        "price": "",
-        "image": "/assets/img/itemShow/crying-tigers.png",
-        "subTitle": "Grilled beef filet Thai-style with spicy dipping sauce and sticky rice.",
-        "priceSubTitle": "Flame, smoke & heart — a story of strength and passion."
+        "title": "Siam Black Pepper – Belgian Blue Garlic - เนื้อพริกไทยดำ 🌶 Mild",
+        "price": "€27.50",
+        "image": "/assets/img/itemShow/siam-black-pepper.png",
+        "subTitle": "Roergebakken Belgian Blue rundvlees met knoflook & zwarte peper. Stir-fried Belgian Blue beef with garlic & black pepper.",
+        "priceSubTitle": "🌾 A • 🌱 F"
       },
       {
-        "title": "Pad Thai Black Tiger – The Golden Thread",
-        "price": "",
-        "image": "/assets/img/itemShow/pad-thai-black-tiger.png",
-        "subTitle": "Classic Pad Thai noodles with tamarind caramel, roasted peanuts & Black Tiger prawns or Chicken.",
-        "priceSubTitle": "Thailand’s national pride reborn with elegance and glow."
-      },
-      {
-        "title": "Som Tam Gai Yang – The Spirit of Isaan",
-        "price": "",
-        "image": "/assets/img/itemShow/som-tam-gai-yang.png",
-        "subTitle": "Green papaya salad with grilled chicken or Black Tiger prawns and sticky rice.",
-        "priceSubTitle": "Freshness, fire & soul — the beating heart of Thai life."
-      },
-      {
-        "title": "Siam Aubergine Silk",
-        "price": "",
-        "image": "/assets/img/itemShow/siam-aubergine.png",
-        "subTitle": "Grilled Belgian aubergine • Red curry coconut cream • Kaffir lime crumble",
-        "priceSubTitle": "Soft, smoky & aromatic — the essence of Thai comfort."
-      },
-      {
-        "title": "Larb Flanders – Isaan Soul Meets Westvlaanderen",
-        "price": "",
+        "title": "Larb Kai – Isaan Soul - ลาบไก่ 🌶🌶 Medium",
+        "price": "€27.50",
         "image": "/assets/img/itemShow/larb-flanders.png",
-        "subTitle": "Spicy minced pork salad with lime, chili & herbs, inspired by Belgian produce.",
-        "priceSubTitle": "The warmth of Isaan mingles with the heart of Flanders."
+        "subTitle": "Pittige salade van gehakte kip met limoen, chili, verse kruiden & geroosterde rijst. Minced chicken salad with lime, chili, herbs & toasted rice.",
+        "priceSubTitle": "🐟 D"
       },
       {
-        "title": "Rainbow Fried Rice – Harmony of the Gulf",
-        "price": "",
+        "title": "Rainbow Fried Rice – Harmony of the Gulf - ข้าวผัดสายรุ้ง",
+        "price": "€27.50",
         "image": "/assets/img/itemShow/rainbow-fried-rice.png",
-        "subTitle": "Wok-fried jasmine rice with glass noodles, prawns, ham, onion, carrot & sweet pepper.",
-        "priceSubTitle": "A colorful symphony of Thai & European flavors."
+        "subTitle": "Wokgebakken jasmijnrijst met glasnoedels, garnalen, ham, ui, wortel & zoete paprika. Wok-fried jasmine rice with glass noodles, prawns, ham, onion, carrot & sweet pepper.",
+        "priceSubTitle": "🦐 B • 🥚 C • 🍋 L • 🌾 A • 🌱 F"
+      },
+      {
+        "title": "Pad Thai Black Tiger – The Golden Thread - ผัดไทยกุ้ง",
+        "price": "€29.50",
+        "image": "/assets/img/itemShow/pad-thai-black-tiger.png",
+        "subTitle": "Gebakken rijstnoedels met tamarinde, ei, tofu, pinda’s & Black Tiger garnalen. Classic Pad Thai noodles with tamarind caramel, egg, tofu, peanuts & Black Tiger prawns.",
+        "priceSubTitle": "🦐 B • 🥚 C • 🐟 D • 🥜 E • 🌱 F"
+      },
+      {
+        "title": "Black Pearl Som Tam – Isaan Andaman Eclipse - ส้มตำกุ้งย่าง 🌶🌶 Medium",
+        "price": "€30.50",
+        "image": "/assets/img/itemShow/som-tam-gai-yang.png",
+        "subTitle": "Groene papajasalade met gegrilde Black Tiger garnalen & zwarte kleefrijst. Green papaya salad with grilled Black Tiger prawns & black sticky rice.",
+        "priceSubTitle": "🥜 E • 🐟 D • 🦐 B*"
+      },
+      {
+        "title": "Egg-Net Pad Thai – Crispy Duck Confit - ผัดไทยห่อไข่",
+        "price": "€31.50",
+        "image": "/assets/img/itemShow/egg-net-pad-thai.png",
+        "subTitle": "Handgerolde Pad Thai in een gouden eiermantel, geserveerd met krokante eendenbout & aromatische kruiden. Hand-wrapped Pad Thai in golden egg veil with crispy duck confit.",
+        "priceSubTitle": "🥚 C • 🌾 A • 🥜 E • 🐟 D • 🌱 F"
+      },
+      {
+        "title": "Tigers Don't Cry – Model Thai Grill Beef - เสือร้องให้ 🌶 Mild",
+        "price": "€29.50",
+        "image": "/assets/img/itemShow/crying-tigers.png",
+        "subTitle": "Gegrilde biefstukfilet met pittige Thaise jaew dipsaus, kruiden & geroosterde rijst. Grilled beef filet with spicy Thai jaew sauce, herbs & toasted rice.",
+        "priceSubTitle": "🌱 F • 🐟 D"
       }
     ],
     "headingtext": {
