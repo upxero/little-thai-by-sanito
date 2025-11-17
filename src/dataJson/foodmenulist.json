@@ -54,60 +54,53 @@
   {
     "foodMenu": [
       {
-        "title": "Tom Yum Noir – Black Tiger Symphony",
-        "price": "",
-        "image": "/assets/img/itemShow/tom-yum-noir.png",
-        "subTitle": "Clear Tom Yum broth with lemongrass, galangal, kaffir lime & grilled Black Tiger prawns.",
-        "priceSubTitle": "Fiery Thai soul performed with European grace."
-      },
-      {
-        "title": "Tom Kha Kai – Cappuccino The Coconut",
-        "price": "",
+        "title": "Tom Kha Kai – Coconut Chicken Harmony",
+        "price": "€14.50",
         "image": "/assets/img/itemShow/tom-kha-kai.png",
-        "subTitle": "Coconut–galangal soup with tender Belgian chicken & kaffir lime foam.",
-        "priceSubTitle": "Tradition reborn in a modern silk of coconut and spice."
+        "subTitle": "Creamy chicken broth with coconut, galangal, lemongrass & kaffir lime. Romige kokosbouillon met kip, galanga, citroengras & kaffir limoen.",
+        "priceSubTitle": "Tradition reborn in a modern silk of coconut and spice. 🐟 D"
       },
       {
-        "title": "Croquette Siam – Massaman de Flandre",
-        "price": "",
-        "image": "/assets/img/itemShow/croquette-siam.png",
-        "subTitle": "Thai–Belgian croquettes of slow-braised Massaman beef & potato, tamarind-ale glaze.",
-        "priceSubTitle": "Belgian heart meets Thai chili soul in a golden embrace."
+        "title": "Tom Yum Goong – Black Tiger Symphony 🌶",
+        "price": "€17.00",
+        "image": "/assets/img/itemShow/tom-yum-goong.png",
+        "subTitle": "Clear Tom Yum broth with lemongrass, galangal, kaffir lime & Black Tiger prawns. Heldere Tom Yum soep met citroengras, galanga, kaffir limoen & Black Tiger garnalen.",
+        "priceSubTitle": "Fiery Thai soul performed with European grace. 🦐 B • 🐟 D • 🍋 L"
       },
       {
         "title": "Butterfly Spring Roll – Garden of Light",
-        "price": "",
+        "price": "€15.00",
         "image": "/assets/img/itemShow/butterfly-spring-roll.png",
-        "subTitle": "Fried rice paper rolls with prawns, mango, avocado & Thai basil, butterfly pea dip.",
-        "priceSubTitle": "Beauty in motion — the butterfly of LittleThaiBySanito."
+        "subTitle": "Crispy vegetable spring rolls with Thai herbs & sweet chili dip. Krokante groenteloempia’s met Thaise kruiden & zoete chilisaus.",
+        "priceSubTitle": "Beauty in motion — the butterfly of LittleThaiBySanito. 🌾 A • 🌱 F • ⚪ K"
+      },
+      {
+        "title": "Kai Satay Royale – Grillè De Poulet",
+        "price": "€15.00",
+        "image": "/assets/img/itemShow/satay-royale.png",
+        "subTitle": "Marinated chicken satay with peanut sauce. Gemarineerde kip saté met pindasaus.",
+        "priceSubTitle": "Street fire dressed in royal silk. 🥜 E • 🌾 A • 🌱 F • ⚪ K"
+      },
+      {
+        "title": "Tod Man Goong – Andaman Golden Shrimp Cake",
+        "price": "€16.00",
+        "image": "/assets/img/itemShow/tod-man-goong.png",
+        "subTitle": "Thai prawn cake with crispy panko crust, served on mango–cucumber salsa. Krokant Thais garnalenkoekje met panko, geserveerd op mango–komkommer salsa.",
+        "priceSubTitle": "A refined bite of the Andaman — warm spice, cool mango, pure silk texture. 🦐 B • 🥚 C • 🐟 D • 🌾 A • 🌱 F • ⚪ K"
       },
       {
         "title": "Black Tiger Dumplings – Phuket Noir",
-        "price": "",
+        "price": "€16.00",
         "image": "/assets/img/itemShow/black-tiger-dumplings.png",
-        "subTitle": "Charcoal dumplings with Black Tiger prawns, soy–lime emulsion & gold leaf.",
-        "priceSubTitle": "Mystery and elegance — power folded in beauty."
+        "subTitle": "Black Tiger prawn dumplings filled with ginger & garlic soy. Black Tigers garnaal dumplings gevuld met gember & knoflook-sojasaus.",
+        "priceSubTitle": "Mystery and elegance — power folded in beauty. 🦐 B • 🌾 A • 🌱 F • ⚪ K"
       },
       {
-        "title": "Thai Tartare – Belgian Blue in Thai Lime",
-        "price": "",
+        "title": "Tartare Siam – Belgian Blue in Thai Lime 🌶",
+        "price": "€20.00",
         "image": "/assets/img/itemShow/thai-tartare.png",
-        "subTitle": "Belgian Blue beef tartare with chili, lime, shallot & roasted rice, topped with crispy dumpling tost.",
-        "priceSubTitle": "A handshake between Belgium and Thailand — raw, pure, alive."
-      },
-      {
-        "title": "Tod Man Pla – Golden Fish Cake Bites",
-        "price": "",
-        "image": "/assets/img/itemShow/tod-man-pla.png",
-        "subTitle": "North Sea cod cakes with kaffir lime, turmeric aioli & sweet chili glaze.",
-        "priceSubTitle": "Golden treasures from the Andaman Sea."
-      },
-      {
-        "title": "Satay Royale – Grill The Poulet",
-        "price": "",
-        "image": "/assets/img/itemShow/satay-royale.png",
-        "subTitle": "Premium chicken or pork satay with coconut–turmeric marinade & peanut sauce.",
-        "priceSubTitle": "Street fire dressed in royal silk."
+        "subTitle": "Belgian Blue beef steak tartare with chili, lime, roasted rice & Thai herbs. Rundertartaar met chili, limoen, geroosterde rijst & Thaise kruiden.",
+        "priceSubTitle": "A handshake between Belgium and Thailand — raw, pure, alive. 🥚 C • 🌿 J • 🌱 F • 🐟 D"
       }
     ],
     "headingtext": {
