@@ -122,9 +122,9 @@ export default function AnnouncementPopup() {
               <h3 style={titleStyle}>Little Thai By Sanito</h3>
 
               <p style={textStyle}>
-                Opens <br />
+                Restaurant opening for full service <br />
                 <strong style={{ color: "#D4AF37" }}>
-                  Tuesday, 18 November 2025
+                  Friday, 21 November 2025 at 18:00
                 </strong>
               </p>
 
