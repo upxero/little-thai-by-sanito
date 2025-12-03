@@ -208,21 +208,21 @@
     "foodMenu": [
       {
         "title": "Thai Basil Crème Brûlée",
-        "price": "",
+        "price": "€10.00",
         "image": "/assets/img/itemShow/thai-basil-creme-brulee.png",
         "subTitle": "Lemongrass caramel and gold leaf on top.",
         "priceSubTitle": "Elegant and balanced."
       },
       {
         "title": "Mango Butterfly Garden",
-        "price": "",
+        "price": "€11.00",
         "image": "/assets/img/itemShow/mango-butterfly-garden.png",
         "subTitle": "Mango and sticky rice, passionfruit gel & edible butterfly tuile.",
         "priceSubTitle": "Sweet and artistic."
       },
       {
         "title": "Crispy Thai Pancake",
-        "price": "",
+        "price": "€9.00",
         "image": "/assets/img/itemShow/crispy-thai-pancake.png",
         "subTitle": "Crispy Thai pancake with a touch of coconut and sweetness.",
         "priceSubTitle": "A perfect ending."

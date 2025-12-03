@@ -18,5 +18,10 @@
         "title": "Contact",
         "link": "/contact",
         "key": "contact"
+    },
+    {
+        "title": "Reservations",
+        "link": "/reservations",
+        "key": "reservations"
     }
 ]

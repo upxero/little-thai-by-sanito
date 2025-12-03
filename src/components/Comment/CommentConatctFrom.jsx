@@ -27,7 +27,6 @@ export default function ContactInfo() {
       <p><FaClock style={{ marginRight: "8px" }} /> Opening Hours:</p>
       <ul style={{ paddingLeft: "24px" }}>
         <li>Tue - Sat: 18:00 - 23:00</li>
-        <li>Fri & Sat (Cocktails & Finger Food): 22:00 - 02:00</li>
         <li>Coming soon — Lunch on Wed, Thu & Fri: 12:00 - 14:30</li>
       </ul>
     </div>

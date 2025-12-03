@@ -10,7 +10,7 @@ const Openinginfo = {
   subtext:
     "Experience authentic Thai cuisine in an elegant atmosphere where tradition meets modern artistry. Join us for dinner and soon also for lunch.",
   open: "TUESDAY - SATURDAY: 18:00 - 23:00",
-  close: "FRIDAY & SATURDAY (Cocktails & Finger Food): 22:00 - 02:00",
+  close: "",
   note: "Coming soon — lunch opening on Wednesday, Thursday & Friday from 12:00 - 14:30.",
 };
 

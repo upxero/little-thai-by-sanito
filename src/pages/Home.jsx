@@ -41,7 +41,7 @@ export default function Home() {
         </script>
       </Helmet>
 
-      <AnnouncementPopup />
+
       <HeroSiderTwo />
       <MovingText />
       <AboutContent />
