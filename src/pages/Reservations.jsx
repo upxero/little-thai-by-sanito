@@ -65,6 +65,14 @@ export default function Reservations() {
                   subTitle={"Reservations"}
                   animTwo={true}
                 />
+
+                <div className="ak-height-20"></div>
+
+                <p style={{ fontSize: "18px", fontWeight: "500", marginBottom: "20px" }}>
+                  Reservation & Walk-in (Guests can also call
+                  <a href="tel:+32473175116"> +32 (0) 473 17 51 16</a>)
+                </p>
+
                 <div className="ak-height-60 ak-height-lg-30"></div>
 
                 {/* 🔹 HappyChef iframe */}
