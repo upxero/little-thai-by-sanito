@@ -239,6 +239,27 @@ export default function Footer() {
             <p className="text-uppercase text-md-center text-white">
               {Footertext.copyright}
             </p>
+
+            <p
+              style={{
+                color: "#fff",
+                fontSize: "13px",
+                marginTop: "4px",
+                textAlign: "center",
+                opacity: 0.9,
+              }}
+            >
+              Made with <span style={{ color: "#ff4f4f" }}>❤️</span> by{" "}
+              <a
+                href="https://www.upxero.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ color: "#fff", textDecoration: "underline" }}
+              >
+                Upxero
+              </a>
+            </p>
+
             <SocialLinks />
           </div>
 

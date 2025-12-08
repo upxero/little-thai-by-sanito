@@ -64,7 +64,7 @@ export default function Menu() {
         style={{ textAlign: "center", marginTop: "30px", color: "#FFD28D" }}
       >
         <p style={{ fontSize: "1.1rem", fontStyle: "italic" }}>
-          Menu still under construction — prices will be added soon.
+
         </p>
       </div>
 
