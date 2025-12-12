@@ -10,6 +10,7 @@ import HeroSiderTwo from "../components/Silders/HeroSiderTwo";
 import PortfolioSlider from "../components/PortfolioSlider/PortfolioSlider";
 import OpeningHoursInfo from "../components/OpenIngHour/OpeningHoursInfo";
 import AnnouncementPopup from "../components/AnnouncementPopup/AnnouncementPopup";
+import TopBarAnnouncement from "../components/TopBarAnnouncement/TopBarAnnouncement";
 
 export default function Home() {
   return (
@@ -40,7 +41,8 @@ export default function Home() {
           })}
         </script>
       </Helmet>
-
+      
+      <TopBarAnnouncement />
 
       <HeroSiderTwo />
       <MovingText />

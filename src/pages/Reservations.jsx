@@ -5,6 +5,7 @@ import CommonHero from "../components/CommonHero/CommonHero";
 import SectionTitle from "../components/SectionTitle/SectionTitle";
 import GoogleMap from "../components/GoogleMap/GoogleMap";
 import BuildingPhotos from "../components/BuildingPhotos/BuildingPhotos";
+import TopBarAnnouncement from "../components/TopBarAnnouncement/TopBarAnnouncement";
 
 export default function Reservations() {
   return (
@@ -47,6 +48,7 @@ export default function Reservations() {
           })}
         </script>
       </Helmet>
+      <TopBarAnnouncement />
 
       <CommonHero title={"Reservation"} link={"/"} />
       <div className="ak-height-150 ak-height-lg-60"></div>
