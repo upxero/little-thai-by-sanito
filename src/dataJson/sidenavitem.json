@@ -3,5 +3,6 @@
   { "title": "About", "link": "/about", "img": "/fullWM_about.jpg" },
   { "title": "Menu", "link": "/menu", "img": "/fullWM_menu.jpg" },
   { "title": "Contact", "link": "/contact", "img": "/fullWM_contact.jpg" },
-  { "title": "Reservations", "link": "/reservations", "img": "/fullWM_reservations.jpg" }
+  { "title": "Reservations", "link": "/reservations", "img": "/fullWM_reservations.jpg" },
+  { "title": "Gallery", "link": "/gallery", "img": "/fullWM_gallery.jpg" }
 ]

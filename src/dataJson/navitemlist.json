@@ -23,5 +23,10 @@
         "title": "Reservations",
         "link": "/reservations",
         "key": "reservations"
+    },
+    {
+        "title": "Gallery",
+        "link": "/gallery",
+        "key": "gallery"
     }
 ]

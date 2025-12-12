@@ -24,6 +24,7 @@ const Footernav = [
   { title: "About", link: "/about", key: "about" },
   { title: "Menu", link: "/menu", key: "menu" },
   { title: "Contact", link: "/contact", key: "contact" },
+  { title: "Gallery", link: "/gallery", key: "gallery" }
 ];
 
 export default function Footer() {
