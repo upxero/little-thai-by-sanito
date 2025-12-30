@@ -16,7 +16,7 @@
     {
         "src": "/assets/img/gallery/gallery_3.jpg",
         "thumbnail": "/assets/img/gallery/gallery_3.jpg",
-        "caption": "Image 4",
+        "caption": "Image 3",
         "title": "Little Thai By Sanito",
         "desp": "Wings of Siam Elegance"
     },
@@ -30,14 +30,21 @@
     {
         "src": "/assets/img/gallery/gallery_5.jpg",
         "thumbnail": "/assets/img/gallery/gallery_5.jpg",
-        "caption": "Image 4",
+        "caption": "Image 5",
         "title": "Little Thai By Sanito",
         "desp": "Wings of Siam Elegance"
     },
     {
         "src": "/assets/img/gallery/gallery_6.jpg",
         "thumbnail": "/assets/img/gallery/gallery_6.jpg",
-        "caption": "Image 4",
+        "caption": "Image 6",
+        "title": "Little Thai By Sanito",
+        "desp": "Wings of Siam Elegance"
+    },
+    {
+        "src": "/assets/img/gallery/gallery_7.jpeg",
+        "thumbnail": "/assets/img/gallery/gallery_7.jpeg",
+        "caption": "Image 7",
         "title": "Little Thai By Sanito",
         "desp": "Wings of Siam Elegance"
     }

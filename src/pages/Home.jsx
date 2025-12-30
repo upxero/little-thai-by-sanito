@@ -42,7 +42,7 @@ export default function Home() {
         </script>
       </Helmet>
       
-      <TopBarAnnouncement />
+      {/* <TopBarAnnouncement /> */}
 
       <HeroSiderTwo />
       <MovingText />
