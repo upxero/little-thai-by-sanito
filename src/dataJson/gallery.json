@@ -47,5 +47,12 @@
         "caption": "Image 7",
         "title": "Little Thai By Sanito",
         "desp": "Wings of Siam Elegance"
+    },
+    {
+        "src": "/assets/img/gallery/gallery_8.jpg",
+        "thumbnail": "/assets/img/gallery/gallery_8.jpg",
+        "caption": "Image 8",
+        "title": "Little Thai By Sanito",
+        "desp": "Wings of Siam Elegance"
     }
 ]

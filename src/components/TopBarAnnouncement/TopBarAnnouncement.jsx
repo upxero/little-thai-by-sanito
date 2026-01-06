@@ -5,7 +5,7 @@ export default function TopBarAnnouncement() {
   const [open, setOpen] = useState(true);
 
   useEffect(() => {
-    const timer = setTimeout(() => setOpen(false), 15000);
+    const timer = setTimeout(() => setOpen(false), 20000);
     return () => clearTimeout(timer);
   }, []);
 
@@ -14,16 +14,14 @@ export default function TopBarAnnouncement() {
     top: 0,
     left: 0,
     width: "100%",
-    backgroundColor: "#111111",        // solide achtergrond
+    backgroundColor: "#111111",
     color: "#ffffff",
     padding: "14px 20px",
-    fontSize: "17px",                   // grotere tekst
+    fontSize: "16px",
     fontWeight: 600,
     textAlign: "center",
-    zIndex: 9999,                       // hoger dan header
+    zIndex: 9999,
     borderBottom: "2px solid #D4AF37",
-
-    // FIX zodat de achtergrond NOOIT doorzichtig wordt
     WebkitBackdropFilter: "none",
     backdropFilter: "none",
   };
@@ -35,7 +33,7 @@ export default function TopBarAnnouncement() {
     background: "transparent",
     border: "none",
     color: "#D4AF37",
-    fontSize: "26px",      // groter kruisje
+    fontSize: "26px",
     fontWeight: "bold",
     cursor: "pointer",
     lineHeight: 1,
@@ -56,9 +54,13 @@ export default function TopBarAnnouncement() {
           </button>
 
           <strong style={{ color: "#D4AF37" }}>
-            Extra open on Sunday 14, 21 & 28 December
+            Closed for maintenance:
           </strong>{" "}
-          from 17:00–23:00 — only in December
+          Mon 5 Jan – Thu 8 Jan 2026.{" "}
+          <strong style={{ color: "#D4AF37" }}>
+            Reopen Fri 9 Jan
+          </strong>{" "}
+          (Lunch & Dinner). Extra open: Sun 10 & Mon 11 Jan.
         </motion.div>
       )}
     </AnimatePresence>
