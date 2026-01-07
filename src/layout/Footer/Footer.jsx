@@ -13,10 +13,12 @@ const Footertext = {
   phonetwo: "+32 (0) 473 17 51 16",
   addressone: "Address",
   addresstwo: "Bolivarplaats 2, 2000 Antwerpen",
-  timeone: "Tue - Sat: 18:00 - 23:00",
-  timetwo: "",
-  timethree: "Coming soon — Lunch on Wed, Thu & Fri: 12:00 - 14:30",
-  copyright: "Copyright 2025 - Little Thai By Sanito",
+
+  timeone: "Lunch: Mon, Tue & Fri — 12:00 - 14:30",
+  timetwo: "Dinner: Fri, Sat & Sun — 18:00 - 23:30 | Mon & Tue — 18:00 - 23:00",
+  timethree: "Closed: Wed & Thu",
+
+  copyright: "Copyright 2026 - Little Thai By Sanito",
 };
 
 const Footernav = [

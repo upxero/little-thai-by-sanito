@@ -33,7 +33,7 @@ export default function TopBarAnnouncement() {
     background: "transparent",
     border: "none",
     color: "#D4AF37",
-    fontSize: "26px",
+    fontSize: "28px", // iets groter
     fontWeight: "bold",
     cursor: "pointer",
     lineHeight: 1,
@@ -54,13 +54,12 @@ export default function TopBarAnnouncement() {
           </button>
 
           <strong style={{ color: "#D4AF37" }}>
-            Closed for maintenance:
+            From Friday 9 January – New Opening Hours
           </strong>{" "}
-          Mon 5 Jan – Thu 8 Jan 2026.{" "}
+          | Lunch: Mon, Tue & Fri (12:00–14:30) | Dinner: Fri–Tue |{" "}
           <strong style={{ color: "#D4AF37" }}>
-            Reopen Fri 9 Jan
-          </strong>{" "}
-          (Lunch & Dinner). Extra open: Sun 10 & Mon 11 Jan.
+            Closed Wednesday & Thursday
+          </strong>
         </motion.div>
       )}
     </AnimatePresence>
