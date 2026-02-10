@@ -24,10 +24,15 @@ export default function ContactInfo() {
       </p>
       <p><FaMapMarkerAlt style={{ marginRight: "8px" }} /> Bolivarplaats 2, 2000 Antwerpen</p>
       
-      <p><FaClock style={{ marginRight: "8px" }} /> Opening Hours:</p>
+      <p>
+        <FaClock style={{ marginRight: "8px" }} />
+        Opening Hours:
+      </p>
       <ul style={{ paddingLeft: "24px" }}>
-        <li>Tue - Sat: 18:00 - 23:00</li>
-        <li>Coming soon — Lunch on Wed, Thu & Fri: 12:00 - 14:30</li>
+        <li>Closed: Monday & Tuesday</li>
+        <li>Dinner: Wednesday – Sunday, 18:00 – 23:00</li>
+        <li>Lunch Friday: 12:00 – 14:30</li>
+        <li>Lunch Saturday: 13:00 – 15:30</li>
       </ul>
     </div>
   );

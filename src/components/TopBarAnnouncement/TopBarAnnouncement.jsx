@@ -54,12 +54,9 @@ export default function TopBarAnnouncement() {
           </button>
 
           <strong style={{ color: "#D4AF37" }}>
-            From Friday 9 January – New Opening Hours
+            New Opening Hours
           </strong>{" "}
-          | Lunch: Mon, Tue & Fri (12:00–14:30) | Dinner: Fri–Tue |{" "}
-          <strong style={{ color: "#D4AF37" }}>
-            Closed Wednesday & Thursday
-          </strong>
+          | Closed: Mon & Tue | Dinner: Wed–Sun (18:00–23:00) | Lunch Fri (12:00–14:30) | Lunch Sat (13:00–15:30)
         </motion.div>
       )}
     </AnimatePresence>
