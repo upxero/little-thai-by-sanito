@@ -54,7 +54,7 @@ export default function TopBarAnnouncement() {
           </button>
 
           <strong style={{ color: "#D4AF37" }}>
-            Open Tuesday to Sunday
+            Open Wednesday to Sunday
           </strong>{" "}
           
         </motion.div>
