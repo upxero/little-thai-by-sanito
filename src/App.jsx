@@ -17,31 +17,35 @@ import Portfoliodetails from "./pages/Portfoliodetails";
 import Blog from "./pages/Blog";
 import Blogdetails from "./pages/Blogdetails";
 import ReservationSuccess from "./pages/ReservationSuccess";
+import ZenchefWidget from "./components/ZenchefWidget";
 
 export default function App() {
   return (
-    <Routes>
-      <Route path="/" element={<Main />}>
-        <Route index element={<Home />}></Route>
-        <Route path="/home2" element={<HomeTwo />}></Route>
-        <Route path="/about" element={<About />}></Route>
-        <Route path="/menu" element={<Menu />}></Route>
-        <Route path="/chef" element={<Chef />}></Route>
-        <Route path="/meet-the-chef/:id" element={<Chefdetails />}></Route>
-        <Route path="/portfolio" element={<Portfolio />}></Route>
-        <Route
-          path="/portfolio-details/:id"
-          element={<Portfoliodetails />}
-        ></Route>
-        <Route path="/blog" element={<Blog />}></Route>
-        <Route path="/blog-details/:id" element={<Blogdetails />}></Route>
-        <Route path="/contact" element={<Contact />}></Route>
-        <Route path="/reservations" element={<Reservations />}></Route>
-        <Route path="/gallery" element={<Gallery />}></Route>
-        <Route path="/comming-soon" element={<Comming />}></Route>
-        <Route path="/*" element={<ErrorPages />}></Route>
-        <Route path="/reservation-success" element={<ReservationSuccess />} />
-      </Route>
-    </Routes>
+    <>
+      {/* 🔥 ROUTES */}
+      <Routes>
+        <Route path="/" element={<Main />}>
+          <Route index element={<Home />} />
+          <Route path="/home2" element={<HomeTwo />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/menu" element={<Menu />} />
+          <Route path="/chef" element={<Chef />} />
+          <Route path="/meet-the-chef/:id" element={<Chefdetails />} />
+          <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="/portfolio-details/:id" element={<Portfoliodetails />} />
+          <Route path="/blog" element={<Blog />} />
+          <Route path="/blog-details/:id" element={<Blogdetails />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/reservations" element={<Reservations />} />
+          <Route path="/gallery" element={<Gallery />} />
+          <Route path="/comming-soon" element={<Comming />} />
+          <Route path="/*" element={<ErrorPages />} />
+          <Route path="/reservation-success" element={<ReservationSuccess />} />
+        </Route>
+      </Routes>
+
+      {/* 🔥 ZENCHEF GLOBAL WIDGET */}
+      <ZenchefWidget />
+    </>
   );
 }

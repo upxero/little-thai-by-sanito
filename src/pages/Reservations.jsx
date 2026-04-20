@@ -6,6 +6,7 @@ import SectionTitle from "../components/SectionTitle/SectionTitle";
 import GoogleMap from "../components/GoogleMap/GoogleMap";
 import BuildingPhotos from "../components/BuildingPhotos/BuildingPhotos";
 import TopBarAnnouncement from "../components/TopBarAnnouncement/TopBarAnnouncement";
+import { WhiteButton } from "../components/Button/Button";
 
 export default function Reservations() {
   return (
@@ -77,27 +78,53 @@ export default function Reservations() {
 
                 <div className="ak-height-60 ak-height-lg-30"></div>
 
-                {/* 🔹 HappyChef iframe */}
-                <div style={{
-                    width: "100%",
-                    height: "0",
-                    paddingBottom: "100%", // Dit maakt het een responsive vierkant
-                    position: "relative",
-                    marginBottom: "0" // verwijder extra padding/margin onder mobiel
-                }}>
-                    <iframe
-                        src="https://book.happychef.cloud/?restaurantId=littlethaibysanito&restaurantName=Little%20Thai%20By%20Sanito"
-                        style={{
-                            position: "absolute",
-                            top: 0,
-                            left: 0,
-                            width: "100%",
-                            height: "100%",
-                            border: "0"
-                        }}
-                        title="HappyChef Reservation"
-                        loading="lazy"
-                    ></iframe>
+                {/* 🔥 Buttons */}
+                <div
+                  style={{
+                    display: "flex",
+                    flexWrap: "wrap",
+                    gap: "20px",
+                    justifyContent: "center",
+                    marginTop: "20px",
+                  }}
+                >
+                  {/* Reservatie */}
+                  <div
+                    style={{
+                      flex: "1 1 200px",
+                      minWidth: "200px",
+                      display: "flex",
+                      justifyContent: "center",
+                    }}
+                  >
+                    <a
+                      href="https://bookings.zenchef.com/results?rid=384441"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      style={{ width: "100%" }}
+                    >
+                      <WhiteButton>Reserveer een tafel</WhiteButton>
+                    </a>
+                  </div>
+
+                  {/* Cadeaubon */}
+                  <div
+                    style={{
+                      flex: "1 1 200px",
+                      minWidth: "200px",
+                      display: "flex",
+                      justifyContent: "center",
+                    }}
+                  >
+                    <a
+                      href="https://shop.zenchef.com/?active-collection=vouchers&collections=vouchers&shop-id=sh_98fde6ed-bf1e-4a51-b0f2-9cb70b8e08fe&language=nl&primary-color=242525"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      style={{ width: "100%" }}
+                    >
+                      <WhiteButton>Koop een cadeaubon</WhiteButton>
+                    </a>
+                  </div>
                 </div>
 
               </div>

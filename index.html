@@ -11,6 +11,16 @@
 <body>
   <div id="root"></div>
   <script type="module" src="/src/main.jsx"></script>
+  <script>
+  (function (d, s, id) {
+    const el = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id) || !el?.parentNode) return;
+    var js = d.createElement(s);
+    js.id = id;
+    js.src = "https://sdk.zenchef.com/v1/sdk.min.js";
+    el.parentNode.insertBefore(js, el);
+  })(document, "script", "zenchef-sdk");
+</script>
 </body>
 
 </html>
