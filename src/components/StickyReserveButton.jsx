@@ -26,7 +26,7 @@ export default function StickyReserveButton() {
         right: "20px",
         zIndex: 9999,
 
-        backgroundColor: "#242525",
+        backgroundColor: "#01A79B",
         color: "#fff",
         border: "2px solid #d4af37",
         borderRadius: "50px",

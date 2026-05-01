@@ -17,7 +17,7 @@ import Portfoliodetails from "./pages/Portfoliodetails";
 import Blog from "./pages/Blog";
 import Blogdetails from "./pages/Blogdetails";
 import ReservationSuccess from "./pages/ReservationSuccess";
-import ZenchefWidget from "./components/ZenchefWidget";
+import StickyReserveButton from "./components/StickyReserveButton";
 
 export default function App() {
   return (
@@ -45,7 +45,7 @@ export default function App() {
       </Routes>
 
       {/* 🔥 ZENCHEF GLOBAL WIDGET */}
-      <ZenchefWidget />
+      <StickyReserveButton />
     </>
   );
 }
