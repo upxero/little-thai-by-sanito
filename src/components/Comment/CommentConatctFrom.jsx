@@ -29,8 +29,8 @@ export default function ContactInfo() {
         Opening Hours:
       </p>
       <ul style={{ paddingLeft: "24px" }}>
-        <li>Closed: Monday & Tuesday</li>
-        <li>Dinner: Wednesday – Sunday, 18:00 – 23:00</li>
+        <li>Closed: Sunday & Monday</li>
+        <li>Dinner: Tuesday – Saturday, 18:00 – 23:00</li>
       </ul>
     </div>
   );

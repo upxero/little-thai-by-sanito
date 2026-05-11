@@ -49,7 +49,6 @@ export default function Reservations() {
           })}
         </script>
       </Helmet>
-      <TopBarAnnouncement />
 
       <CommonHero title={"Reservation"} link={"/"} />
       <div className="ak-height-150 ak-height-lg-60"></div>
