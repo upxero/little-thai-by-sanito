@@ -8,10 +8,10 @@ const Openinginfo = {
   title: "Opening Hours",
   image: "/assets/img/about/about_open_hour.jpg",
   subtext:
-    "Experience authentic Thai cuisine in an elegant atmosphere where tradition meets modern artistry. Join us for dinner from Tuesday to Saturday.",
-  open: "Dinner: Tuesday – Saturday, 18:00 – 23:00",
-  close: "Closed: Sunday & Monday",
-  note: "",
+    "Experience authentic Thai cuisine in an elegant atmosphere where tradition meets modern artistry.",
+  open: "Lunch: Wednesday & Friday, 12:00 – 15:00",
+  close: "Dinner: Tuesday – Saturday, 18:00 – 23:00",
+  note: "Closed: Sunday & Monday",
 };
 
 export default function OpeningHoursInfo({ typeTwo }) {

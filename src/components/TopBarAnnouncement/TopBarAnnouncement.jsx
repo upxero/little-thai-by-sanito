@@ -54,8 +54,8 @@ export default function TopBarAnnouncement() {
           </button>
 
           <strong style={{ color: "#D4AF37" }}>
-            Today, April 22, we are closed. Tomorrow, April 23, we will be open again during our regular opening hours.
-          </strong>{" "}
+            🍽️ New Lunch Service! Starting June 10, join us every Wednesday & Friday for lunch from 12:00 to 15:00.
+          </strong>
           
         </motion.div>
       )}
