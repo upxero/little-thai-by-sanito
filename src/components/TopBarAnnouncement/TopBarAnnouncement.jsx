@@ -54,7 +54,7 @@ export default function TopBarAnnouncement() {
           </button>
 
           <strong style={{ color: "#D4AF37" }}>
-            🍽️ New Lunch Service! Starting June 10, join us every Wednesday & Friday for lunch from 12:00 to 15:00.
+            🍽️ New Lunch Service! Starting June 10, join us every Tuesday - Friday for lunch from 12:00 to 15:00.
           </strong>
           
         </motion.div>

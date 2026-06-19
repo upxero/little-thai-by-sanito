@@ -9,7 +9,7 @@ const Openinginfo = {
   image: "/assets/img/about/about_open_hour.jpg",
   subtext:
     "Experience authentic Thai cuisine in an elegant atmosphere where tradition meets modern artistry.",
-  open: "Lunch: Wednesday & Friday, 12:00 – 15:00",
+  open: "Lunch: Tuesday - Friday, 12:00 – 15:00",
   close: "Dinner: Tuesday – Saturday, 18:00 – 23:00",
   note: "Closed: Sunday & Monday",
 };
