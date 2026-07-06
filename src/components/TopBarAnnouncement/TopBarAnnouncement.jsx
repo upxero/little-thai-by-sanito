@@ -54,7 +54,7 @@ export default function TopBarAnnouncement() {
           </button>
 
           <strong style={{ color: "#D4AF37" }}>
-            🍽️ New Lunch Service! Starting June 10, join us every Tuesday - Friday for lunch from 12:00 to 15:00.
+            📢 Special Opening Today! We are exceptionally open today, Monday 6 July 2026, from <strong>18:00 to 23:30</strong>. We look forward to welcoming you!
           </strong>
           
         </motion.div>
