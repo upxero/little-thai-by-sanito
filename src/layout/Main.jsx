@@ -4,6 +4,7 @@ import Header from "./Header/Header";
 import Footer from "./Footer/Footer";
 import Scrollup from "../components/ScrollUp/Scrollup";
 import { scrollUpBtn } from "../helper/main";
+import TopBarAnnouncement from "../components/TopBarAnnouncement/TopBarAnnouncement";
 
 export default function Main() {
   const { pathname } = useLocation();
@@ -14,6 +15,7 @@ export default function Main() {
   return (
     <>
       <Header />
+      <TopBarAnnouncement />
       <Outlet />
       {pathname == "/error-pages" || pathname == "/comming-soon" ? (
         " "
