@@ -54,7 +54,7 @@ export default function TopBarAnnouncement() {
           </button>
 
           <strong style={{ color: "#D4AF37" }}>
-            📢 Special Opening Today! We are exceptionally open today, Monday 6 July 2026, from <strong>18:00 to 23:30</strong>. We look forward to welcoming you!
+            📢 Special Opening Hours: We are exceptionally open on <strong>Sunday 19 July</strong> and <strong>Monday 20 July 2026</strong> from <strong>18:00 to 23:45</strong>. We will be exceptionally closed on <strong>Tuesday 21 July</strong> and <strong>Wednesday 22 July 2026</strong>. Thank you for your understanding!
           </strong>
           
         </motion.div>
