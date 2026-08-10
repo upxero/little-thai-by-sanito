@@ -14,7 +14,7 @@ const Footertext = {
   addressone: "Address",
   addresstwo: "Bolivarplaats 2, 2000 Antwerpen",
 
-  timeone: "Lunch: Tue - Fri — 12:00 - 15:00",
+  timeone: "Lunch: Wed - Fri — 12:00 - 15:00",
   timetwo: "Dinner: Tue – Sat — 18:00 - 23:00",
   timethree: "Closed: Sunday & Monday",
 
