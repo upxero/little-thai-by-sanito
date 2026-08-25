@@ -15,7 +15,6 @@ export default function Main() {
   return (
     <>
       <Header />
-      <TopBarAnnouncement />
       <Outlet />
       {pathname == "/error-pages" || pathname == "/comming-soon" ? (
         " "

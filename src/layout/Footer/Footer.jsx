@@ -14,9 +14,9 @@ const Footertext = {
   addressone: "Address",
   addresstwo: "Bolivarplaats 2, 2000 Antwerpen",
 
-  timeone: "Lunch: Wed - Fri — 12:00 - 15:00",
-  timetwo: "Dinner: Tue – Sat — 18:00 - 23:00",
-  timethree: "Closed: Sunday & Monday",
+  timeone: "Tuesday – Saturday — 18:00 – 23:45",
+  timetwo: "First Sunday of the month — 18:00 – 23:45",
+  timethree: "Closed: Sunday (except first Sunday) & Monday",
 
   copyright: "Copyright 2026 - Little Thai By Sanito",
 };

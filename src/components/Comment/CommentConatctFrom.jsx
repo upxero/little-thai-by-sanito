@@ -1,5 +1,10 @@
 import React from "react";
-import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt, FaClock } from "react-icons/fa";
+import {
+  FaPhoneAlt,
+  FaEnvelope,
+  FaMapMarkerAlt,
+  FaClock,
+} from "react-icons/fa";
 
 export default function ContactInfo() {
   return (
@@ -14,7 +19,10 @@ export default function ContactInfo() {
         borderRadius: "8px",
       }}
     >
-      <p><FaPhoneAlt style={{ marginRight: "8px" }} /> +32 (0) 473 17 51 16</p>
+      <p>
+        <FaPhoneAlt style={{ marginRight: "8px" }} />
+        +32 (0) 473 17 51 16
+      </p>
 
       <p>
         <FaEnvelope style={{ marginRight: "8px" }} />
@@ -37,9 +45,9 @@ export default function ContactInfo() {
       </p>
 
       <ul style={{ paddingLeft: "24px" }}>
-        <li>Lunch: Wednesday - Friday, 12:00 – 15:00</li>
-        <li>Dinner: Tuesday – Saturday, 18:00 – 23:00</li>
-        <li>Closed: Sunday & Monday</li>
+        <li>Tuesday – Saturday, 18:00 – 23:45</li>
+        <li>First Sunday of the month, 18:00 – 23:45</li>
+        <li>Closed: Sunday (except first Sunday of the month) & Monday</li>
       </ul>
     </div>
   );
